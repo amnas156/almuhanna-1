@@ -1,242 +1,109 @@
+// app/page.tsx
+
 import Image from "next/image";
 import Link from "next/link";
 
 import {
-  ArrowRight,
-  Building2,
-  CheckCircle2,
-  ChevronRight,
-  Factory,
-  HelpCircle,
-  MessageCircle,
+  ArrowUpRight,
   ShieldCheck,
-  Sparkles,
-  Star,
-  Zap,
+  BadgeCheck,
 } from "lucide-react";
 
-const stats = [
-  {
-    number: "500+",
-    label: "Industrial Products",
-  },
+import { brands } from "@/data/brands";
+import { clients } from "@/data/clients";
+import { products } from "@/data/products";
 
-  {
-    number: "100+",
-    label: "Trusted Clients",
-  },
-
-  {
-    number: "24/7",
-    label: "Technical Support",
-  },
-];
-
-const categories = [
-  {
-    title: "Low Voltage Components",
-    desc: "Premium protection and switching systems for industrial applications.",
-  },
-
-  {
-    title: "Enclosures",
-    desc: "Wall mount, floor standing and weatherproof industrial enclosures.",
-  },
-
-  {
-    title: "Copper Products",
-    desc: "Copper busbar, braided wire, lugs and grounding accessories.",
-  },
-
-  {
-    title: "Power Monitoring",
-    desc: "Digital meters, controllers and energy monitoring systems.",
-  },
-
-  {
-    title: "Thermal Management",
-    desc: "Industrial cooling fans, heaters and thermostat systems.",
-  },
-
-  {
-    title: "Transformers",
-    desc: "Reliable industrial transformers and electrical solutions.",
-  },
-];
-
-const products = [
-  {
-    name: "MCCB Breaker",
-    code: "MCCB-204",
-    image: "/products/mccb.jpg",
-  },
-
-  {
-    name: "Industrial Panel Fan",
-    code: "FAN-104",
-    image: "/products/panel-fan.jpg",
-  },
-
-  {
-    name: "Power Transformer",
-    code: "TR-310",
-    image: "/products/transformer.jpg",
-  },
-
-  {
-    name: "Wall Mount Enclosure",
-    code: "ENC-220",
-    image: "/products/enclosure.jpg",
-  },
-];
-
-const associates = [
-  "Al Masar Yellow Co",
-  "Shapoorji Pallonji Co.",
-  "United Construction Co.",
-  "New Feb Co",
-  "Saudi Icon Co.",
-  "CEPCO",
-];
-
-const whyChoose = [
-  "Reliable Supply Chain",
-  "Premium Product Quality",
-  "Competitive Pricing",
-  "Industrial Technical Support",
-];
-
-const testimonials = [
-  {
-    name: "Industrial Contractor",
-    review:
-      "Reliable products and professional support for our industrial projects.",
-  },
-
-  {
-    name: "Project Engineer",
-    review:
-      "Excellent product quality and trusted engineering support.",
-  },
-
-  {
-    name: "Construction Company",
-    review:
-      "Premium industrial supplier with fast response and delivery.",
-  },
-];
+import BrandWall from "@/components/BrandWall";
+import CTASection from "@/components/CTASection";
+import FAQ from "@/components/FAQ";
+import FAQPopupButton from "@/components/FAQPopupButton";
+import ProductCard from "@/components/ProductCard";
+import SectionHeader from "@/components/SectionHeader";
+import StatsCard from "@/components/StatsCard";
 
 export default function HomePage() {
+  const featuredProducts = products.slice(0, 6);
+
   return (
-    <main className="relative overflow-hidden bg-white">
-      {/* ================================================= */}
-      {/* FIXED FAQ BUTTON */}
-      {/* ================================================= */}
-
-      <Link
-        href="/faq"
-        className="group fixed right-5 top-1/2 z-50 flex h-16 w-16 -translate-y-1/2 items-center justify-center rounded-full bg-gradient-to-br from-[#36B1C7] to-[#960B33] text-white shadow-[0_20px_60px_rgba(54,177,199,0.35)] transition-all duration-500 hover:scale-110"
-      >
-        <HelpCircle
-          size={30}
-          className="transition duration-300 group-hover:rotate-12"
-        />
-      </Link>
-
-      {/* ================================================= */}
-      {/* WHATSAPP BUTTON */}
-      {/* ================================================= */}
-
-      <a
-        href="https://wa.me/966538357119"
-        target="_blank"
-        className="group fixed bottom-6 right-5 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_20px_60px_rgba(37,211,102,0.35)] transition-all duration-500 hover:scale-110"
-      >
-        <MessageCircle
-          size={30}
-          className="transition duration-300 group-hover:rotate-12"
-        />
-      </a>
-
-      {/* ================================================= */}
+    <>
       {/* HERO */}
-      {/* ================================================= */}
-
-      <section className="relative overflow-hidden px-4 py-28 sm:px-6 lg:py-44">
+      <section className="relative overflow-hidden px-6 pb-24 pt-28 lg:px-10">
         {/* BACKGROUND */}
-        <div className="absolute inset-0 -z-10 bg-white" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#F8FDFF] via-white to-[#FFF7FA]" />
 
-        <div className="absolute inset-0 -z-10 opacity-[0.03] bg-[linear-gradient(to_right,#000_1px,transparent_1px),linear-gradient(to_bottom,#000_1px,transparent_1px)] bg-[size:80px_80px]" />
+        <div className="absolute left-0 top-0 h-[450px] w-[450px] rounded-full bg-[#36B1C7]/10 blur-[120px]" />
 
-        {/* GLOW */}
-        <div className="absolute left-[-10%] top-[10%] -z-10 h-[550px] w-[550px] rounded-full bg-[#36B1C7]/15 blur-3xl" />
+        <div className="absolute bottom-0 right-0 h-[450px] w-[450px] rounded-full bg-[#960B33]/10 blur-[120px]" />
 
-        <div className="absolute bottom-[-10%] right-[-10%] -z-10 h-[550px] w-[550px] rounded-full bg-[#960B33]/15 blur-3xl" />
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px)",
+            backgroundSize: "80px 80px",
+          }}
+        />
 
-        <div className="container-main grid items-center gap-20 lg:grid-cols-2">
+        <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-2">
           {/* LEFT */}
           <div>
-            {/* BADGE */}
-            <div className="inline-flex items-center gap-3 rounded-full border border-cyan-100 bg-white/80 px-6 py-3 shadow-xl shadow-cyan-500/10 backdrop-blur-2xl">
-              <Sparkles size={18} className="text-[#36B1C7]" />
-
-              <span className="text-xs font-black uppercase tracking-[0.22em] text-gray-600 sm:text-sm">
-                Trusted Industrial Supplier
+            <div className="inline-flex rounded-full border border-[#36B1C7]/20 bg-[#36B1C7]/10 px-5 py-2 backdrop-blur-xl">
+              <span className="text-xs font-black uppercase tracking-[0.25em] text-[#36B1C7]">
+                Saudi Industrial Supply
               </span>
             </div>
 
-            {/* TITLE */}
-            <h1 className="mt-8 text-5xl font-black uppercase leading-[0.84] tracking-[-0.08em] text-[#101010] sm:text-6xl md:text-8xl xl:text-[8.5rem]">
-              Trusted
-              <span className="block bg-gradient-to-r from-[#36B1C7] to-[#960B33] bg-clip-text text-transparent">
-                Electrical &
+            <h1 className="mt-8 text-5xl font-black uppercase leading-[1] tracking-tight text-[#0B0F19] sm:text-6xl lg:text-7xl">
+              Trusted Electrical &
+              <span className="bg-gradient-to-r from-[#36B1C7] to-[#960B33] bg-clip-text text-transparent">
+                {" "}
+                Mechanical Solutions
               </span>
-              Mechanical
             </h1>
 
-            {/* DESC */}
-            <p className="mt-8 max-w-2xl text-base leading-8 text-gray-600 sm:text-lg">
-              Reliable industrial supply partner in Saudi Arabia
-              delivering premium electrical & mechanical
-              products with trusted engineering solutions.
+            <p className="mt-8 max-w-2xl text-lg leading-9 text-gray-600">
+              Reliable industrial supply partner in Saudi Arabia delivering
+              premium electrical, automation, power distribution, and mechanical
+              solutions for modern infrastructure and industrial projects.
             </p>
 
-            {/* BUTTONS */}
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            {/* CTA */}
+            <div className="mt-10 flex flex-wrap gap-5">
               <Link
                 href="/products"
-                className="group inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-8 py-5 text-sm font-black uppercase tracking-[0.18em] text-white shadow-[0_15px_40px_rgba(54,177,199,0.35)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(54,177,199,0.45)]"
+                className="group inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-8 py-4 text-sm font-black uppercase tracking-[0.15em] text-white shadow-[0_0_40px_rgba(54,177,199,0.3)] transition duration-300 hover:scale-105"
               >
                 View Products
 
-                <ArrowRight
-                  size={20}
-                  className="ml-3 transition group-hover:translate-x-1"
+                <ArrowUpRight
+                  size={18}
+                  className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
                 />
               </Link>
 
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-8 py-5 text-sm font-black uppercase tracking-[0.18em] text-[#101010] shadow-lg transition-all duration-500 hover:-translate-y-1 hover:border-[#36B1C7] hover:text-[#36B1C7]"
+              <a
+                href="https://wa.me/966538357119"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 rounded-full border border-[#36B1C7]/20 bg-white/70 px-8 py-4 text-sm font-black uppercase tracking-[0.15em] text-[#0B0F19] backdrop-blur-xl transition duration-300 hover:border-[#36B1C7]/40 hover:bg-white"
               >
                 Contact Us
-              </Link>
+              </a>
             </div>
 
-            {/* STATS */}
-            <div className="mt-16 grid grid-cols-3 gap-4 sm:gap-5">
-              {stats.map((item) => (
+            {/* TRUST BADGES */}
+            <div className="mt-12 flex flex-wrap gap-4">
+              {[
+                "Premium Supply",
+                "Trusted Support",
+                "Industrial Quality",
+              ].map((badge) => (
                 <div
-                  key={item.label}
-                  className="rounded-[2rem] border border-gray-100 bg-white/80 p-5 shadow-2xl backdrop-blur-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(54,177,199,0.15)] sm:p-7"
+                  key={badge}
+                  className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/70 px-4 py-2 text-sm font-semibold text-gray-700 shadow-sm backdrop-blur-xl"
                 >
-                  <h3 className="text-2xl font-black text-[#960B33] sm:text-3xl">
-                    {item.number}
-                  </h3>
-
-                  <p className="mt-2 text-[10px] font-black uppercase tracking-wide text-gray-500 sm:text-sm">
-                    {item.label}
-                  </p>
+                  <BadgeCheck size={16} className="text-[#36B1C7]" />
+                  {badge}
                 </div>
               ))}
             </div>
@@ -244,104 +111,160 @@ export default function HomePage() {
 
           {/* RIGHT */}
           <div className="relative">
-            {/* FLOATING LIGHT */}
-            <div className="absolute -right-8 top-10 h-40 w-40 rounded-full bg-[#36B1C7]/20 blur-3xl" />
+            <div className="relative overflow-hidden rounded-[40px] border border-white/20 bg-white/50 shadow-[0_25px_80px_rgba(0,0,0,0.08)] backdrop-blur-2xl">
+              <Image
+                src="/images/hero/industrial-hero.jpg"
+                alt="Industrial Solutions"
+                width={900}
+                height={700}
+                className="h-full w-full object-cover"
+                priority
+              />
+            </div>
 
-            <div className="absolute -bottom-8 -left-8 h-40 w-40 rounded-full bg-[#960B33]/20 blur-3xl" />
-
-            {/* FLOAT CARD */}
-            <div className="absolute -left-6 top-10 z-10 hidden rounded-[2rem] border border-white/50 bg-white/85 p-6 shadow-2xl backdrop-blur-2xl lg:block">
+            {/* FLOATING CARD */}
+            <div className="absolute -bottom-10 -left-10 rounded-[30px] border border-white/20 bg-white/70 p-6 shadow-[0_15px_60px_rgba(0,0,0,0.08)] backdrop-blur-2xl">
               <div className="flex items-center gap-4">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-cyan-50 text-[#36B1C7]">
-                  <ShieldCheck size={28} />
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-r from-[#36B1C7] to-[#960B33] text-white">
+                  <ShieldCheck size={26} />
                 </div>
 
                 <div>
-                  <h4 className="font-black">
-                    Reliable Supply
-                  </h4>
+                  <h3 className="text-lg font-black uppercase text-[#0B0F19]">
+                    100% Reliable
+                  </h3>
 
-                  <p className="text-sm text-gray-500">
-                    Industrial Grade
+                  <p className="text-sm text-gray-600">
+                    Industrial Supply Solutions
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* IMAGE */}
-            <div className="rounded-[2.5rem] border border-gray-100 bg-white/80 p-4 shadow-2xl backdrop-blur-2xl sm:rounded-[3rem] sm:p-5">
-              <div className="relative h-[360px] overflow-hidden rounded-[2rem] sm:h-[580px] sm:rounded-[2.5rem]">
-                <Image
-                  src="/hero-industrial.png"
-                  alt="Industrial Products"
-                  fill
-                  priority
-                  className="object-cover"
-                />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ================================================= */}
-      {/* PRODUCT CATEGORIES */}
-      {/* ================================================= */}
+      {/* STATS */}
+      <section className="px-6 py-10 lg:px-10">
+        <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-4">
+          <StatsCard
+            icon="building"
+            value="14+"
+            label="Years Experience"
+            description="Serving industrial and infrastructure sectors across Saudi Arabia."
+          />
 
-      <section className="relative px-4 py-28 sm:px-6 lg:py-36">
-        <div className="absolute left-1/2 top-0 -z-10 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[#36B1C7]/10 blur-3xl" />
+          <StatsCard
+            icon="boxes"
+            value="500+"
+            label="Industrial Products"
+            description="Premium electrical and mechanical industrial solutions."
+          />
 
-        <div className="container-main">
-          {/* HEADER */}
-          <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-black uppercase tracking-[0.35em] text-[#36B1C7]">
-              Product Categories
-            </p>
+          <StatsCard
+            icon="shield"
+            value="120+"
+            label="Trusted Clients"
+            description="Supporting contractors, engineers, and industrial companies."
+          />
 
-            <h2 className="mt-5 text-gray-800 text-4xl font-black uppercase tracking-[-0.05em] sm:text-6xl">
-              Industrial Product Solutions
-            </h2>
+          <StatsCard
+            icon="star"
+            value="24/7"
+            label="Technical Support"
+            description="Reliable support and industrial sourcing assistance."
+          />
+        </div>
+      </section>
+
+      {/* FEATURED PRODUCTS */}
+      <section className="px-6 py-24 lg:px-10">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeader
+            badge="Industrial Products"
+            title="Featured"
+            highlight="Products"
+            description="Explore our premium industrial electrical and mechanical product range for modern infrastructure and industrial applications."
+            center
+          />
+
+          <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+            {featuredProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                id={product.id}
+                title={product.title}
+                code={product.code}
+                image={product.image}
+                category={product.category}
+                description={product.description}
+              />
+            ))}
           </div>
+        </div>
+      </section>
 
-          {/* GRID */}
-          <div className="mt-20 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-            {categories.map((item) => (
+      {/* CLIENTS */}
+      <BrandWall title="Trusted Clients" items={clients} />
+
+      {/* BRANDS */}
+      <BrandWall title="Global Industrial Brands" items={brands} />
+
+      {/* WHY CHOOSE US */}
+      <section className="px-6 py-24 lg:px-10">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeader
+            badge="Why Choose Us"
+            title="Reliable Industrial"
+            highlight="Supply Partner"
+            description="Delivering trusted industrial solutions with premium quality products, technical expertise, and fast customer support."
+            center
+          />
+
+          <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+            {[
+              {
+                title: "Premium Products",
+                desc: "High-quality industrial electrical & mechanical products.",
+              },
+              {
+                title: "Technical Support",
+                desc: "Professional support for product selection and solutions.",
+              },
+              {
+                title: "Fast Delivery",
+                desc: "Reliable supply chain and timely project support.",
+              },
+              {
+                title: "Competitive Pricing",
+                desc: "Cost-effective industrial sourcing solutions.",
+              },
+            ].map((item) => (
               <div
                 key={item.title}
-                className="group rounded-[2rem] border border-gray-100 bg-white/80 p-8 shadow-xl backdrop-blur-2xl transition-all duration-500 ease-out hover:-translate-y-3 hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(54,177,199,0.18)]"
+                className="rounded-[32px] border border-white/20 bg-white/70 p-8 shadow-[0_10px_60px_rgba(0,0,0,0.05)] backdrop-blur-2xl transition duration-500 hover:-translate-y-2 hover:shadow-[0_0_60px_rgba(54,177,199,0.15)]"
               >
-                {/* ICON */}
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#36B1C7] to-[#960B33] text-white shadow-xl">
-                  <Factory size={30} />
-                </div>
-
-                {/* TITLE */}
-                <h3 className="mt-7 text-2xl text-gray-800 font-black">
+                <h3 className="text-2xl font-black uppercase text-[#0B0F19]">
                   {item.title}
                 </h3>
 
-                {/* DESC */}
-                <p className="mt-4 leading-8 text-gray-600">
+                <p className="mt-5 text-base leading-8 text-gray-600">
                   {item.desc}
                 </p>
-
-                {/* BTN */}
-                <Link
-                  href="/products"
-                  className="mt-7 inline-flex items-center font-black uppercase tracking-wide text-[#36B1C7]"
-                >
-                  Explore
-
-                  <ChevronRight
-                    size={18}
-                    className="ml-2"
-                  />
-                </Link>
               </div>
             ))}
           </div>
         </div>
       </section>
-    </main>
+
+      {/* FAQ */}
+      <FAQ />
+
+      {/* CTA */}
+      <CTASection />
+
+      {/* FAQ POPUP BUTTON */}
+      <FAQPopupButton />
+    </>
   );
 }
