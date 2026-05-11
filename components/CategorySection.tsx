@@ -16,65 +16,50 @@ export default function CategorySection({
   products,
 }: CategorySectionProps) {
   return (
-    <section className="relative py-20">
-      {/* BACKGROUND DECOR */}
-      <div className="absolute left-0 top-0 h-[250px] w-[250px] rounded-full bg-[#36B1C7]/10 blur-[100px]" />
-
-      <div className="absolute bottom-0 right-0 h-[250px] w-[250px] rounded-full bg-[#960B33]/10 blur-[100px]" />
+    <section className="relative py-14 sm:py-16 lg:py-20">
+      <div className="absolute left-0 top-0 h-[180px] w-[180px] rounded-full bg-[#36B1C7]/10 blur-[90px] sm:h-[250px] sm:w-[250px]" />
+      <div className="absolute bottom-0 right-0 h-[180px] w-[180px] rounded-full bg-[#960B33]/10 blur-[90px] sm:h-[250px] sm:w-[250px]" />
 
       <div className="relative z-10">
-        {/* CATEGORY HEADER */}
         <motion.div
-          initial={{ opacity: 0, y: 35 }}
+          initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.55 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="mb-14"
+          className="mb-10 sm:mb-12 lg:mb-14"
         >
-          {/* SMALL BADGE */}
-          <div className="inline-flex rounded-full border border-[#36B1C7]/20 bg-[#36B1C7]/10 px-5 py-2 backdrop-blur-xl">
-            <span className="text-xs font-black uppercase tracking-[0.25em] text-[#36B1C7]">
+          <div className="inline-flex rounded-full border border-[#36B1C7]/20 bg-[#36B1C7]/10 px-4 py-2 backdrop-blur-xl sm:px-5">
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#36B1C7] sm:text-xs">
               Product Category
             </span>
           </div>
 
-          {/* TITLE */}
-          <h2 className="mt-6 text-4xl font-black uppercase tracking-tight text-[#0B0F19] sm:text-5xl">
+          <h2 className="mt-5 text-3xl font-black uppercase leading-tight tracking-tight text-[#0B0F19] sm:mt-6 sm:text-4xl lg:text-5xl">
             {title}
           </h2>
 
-          {/* DESCRIPTION */}
           {description && (
-            <p className="mt-5 max-w-3xl text-base leading-8 text-gray-600">
+            <p className="mt-4 max-w-3xl text-sm leading-7 text-gray-600 sm:mt-5 sm:text-base sm:leading-8">
               {description}
             </p>
           )}
 
-          {/* DECORATIVE LINE */}
-          <div className="mt-7 h-[4px] w-28 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33]" />
+          <div className="mt-6 h-[4px] w-20 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] sm:mt-7 sm:w-28" />
         </motion.div>
 
-        {/* PRODUCTS GRID */}
-        <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 sm:gap-8 xl:grid-cols-3">
           {products.map((product, index) => (
             <motion.div
               key={product.id}
-              initial={{ opacity: 0, y: 45 }}
+              initial={{ opacity: 0, y: 35 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
-                duration: 0.5,
-                delay: index * 0.05,
+                duration: 0.45,
+                delay: index * 0.04,
               }}
               viewport={{ once: true }}
             >
-              <ProductCard
-                id={product.id}
-                title={product.title}
-                code={product.code}
-                category={product.category}
-                image={product.image}
-                description={product.description}
-              />
+              <ProductCard {...product} />
             </motion.div>
           ))}
         </div>

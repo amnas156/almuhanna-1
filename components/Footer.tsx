@@ -1,5 +1,3 @@
-// components/Footer.tsx
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,10 +27,10 @@ const productLinks = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#060B16] text-white">
-      {/* GLOW EFFECTS */}
-      <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[#36B1C7]/20 blur-[120px]" />
+      {/* GLOW */}
+      <div className="absolute left-0 top-0 h-[250px] w-[250px] rounded-full bg-[#36B1C7]/20 blur-[100px] sm:h-[400px] sm:w-[400px]" />
 
-      <div className="absolute bottom-0 right-0 h-[400px] w-[400px] rounded-full bg-[#960B33]/20 blur-[120px]" />
+      <div className="absolute bottom-0 right-0 h-[250px] w-[250px] rounded-full bg-[#960B33]/20 blur-[100px] sm:h-[400px] sm:w-[400px]" />
 
       {/* GRID */}
       <div
@@ -44,14 +42,14 @@ export default function Footer() {
         }}
       />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 pb-8 pt-24 lg:px-10">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 pb-8 pt-16 sm:px-6 sm:pt-24 lg:px-10">
         {/* TOP */}
-        <div className="grid gap-16 border-b border-white/10 pb-16 lg:grid-cols-4">
+        <div className="grid gap-12 border-b border-white/10 pb-14 lg:grid-cols-4 lg:gap-16 lg:pb-16">
           {/* COMPANY */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-4">
+            <div className="flex items-start gap-4 sm:items-center">
               {/* LOGO */}
-              <div className="relative h-16 w-16 overflow-hidden rounded-3xl border border-white/10 bg-white shadow-[0_0_40px_rgba(54,177,199,0.15)]">
+              <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-white shadow-[0_0_40px_rgba(54,177,199,0.15)] sm:h-16 sm:w-16 sm:rounded-3xl">
                 <Image
                   src="/logo.png"
                   alt="TALA AABDUL RAHMAN ALMUHANNA CO."
@@ -60,31 +58,31 @@ export default function Footer() {
                 />
               </div>
 
-              {/* COMPANY NAME */}
+              {/* NAME */}
               <div className="leading-none">
-                <h2 className="text-lg font-black uppercase tracking-[0.12em] text-white sm:text-2xl">
+                <h2 className="text-sm font-black uppercase tracking-[0.08em] text-white sm:text-2xl">
                   TALA AABDUL RAHMAN
                 </h2>
 
-                <p className="mt-2 text-[11px] font-bold uppercase tracking-[0.35em] text-gray-400">
+                <p className="mt-2 text-[9px] font-bold uppercase tracking-[0.25em] text-gray-400 sm:text-[11px] sm:tracking-[0.35em]">
                   ALMUHANNA CO.
                 </p>
               </div>
             </div>
 
-            <p className="mt-8 max-w-2xl text-base leading-8 text-gray-400">
+            <p className="mt-6 max-w-2xl text-sm leading-7 text-gray-400 sm:mt-8 sm:text-base sm:leading-8">
               Trusted industrial supply partner in Saudi Arabia delivering
               premium electrical and mechanical solutions for construction,
               industrial automation, infrastructure, and engineering projects.
             </p>
 
             {/* CTA */}
-            <div className="mt-10">
+            <div className="mt-8 sm:mt-10">
               <a
                 href="https://wa.me/966538357119"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-8 py-4 text-sm font-bold uppercase tracking-[0.15em] text-white shadow-[0_0_40px_rgba(54,177,199,0.25)] transition duration-300 hover:scale-105"
+                className="group flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-6 py-4 text-xs font-bold uppercase tracking-[0.12em] text-white shadow-[0_0_40px_rgba(54,177,199,0.25)] transition duration-300 hover:scale-[1.02] sm:inline-flex sm:w-auto sm:px-8 sm:text-sm"
               >
                 Contact on WhatsApp
 
@@ -98,11 +96,11 @@ export default function Footer() {
 
           {/* QUICK LINKS */}
           <div>
-            <h3 className="text-lg font-black uppercase tracking-[0.15em]">
+            <h3 className="text-base font-black uppercase tracking-[0.15em] sm:text-lg">
               Quick Links
             </h3>
 
-            <div className="mt-8 space-y-4">
+            <div className="mt-6 space-y-3 sm:mt-8 sm:space-y-4">
               {quickLinks.map((item) => (
                 <Link
                   key={item.title}
@@ -110,11 +108,11 @@ export default function Footer() {
                   className="group flex items-center gap-3 text-gray-400 transition duration-300 hover:text-[#36B1C7]"
                 >
                   <ChevronRight
-                    size={16}
+                    size={15}
                     className="transition-transform duration-300 group-hover:translate-x-1"
                   />
 
-                  <span className="text-sm font-semibold uppercase tracking-[0.12em]">
+                  <span className="text-xs font-semibold uppercase tracking-[0.12em] sm:text-sm">
                     {item.title}
                   </span>
                 </Link>
@@ -122,13 +120,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* PRODUCT LINKS */}
+          {/* PRODUCTS */}
           <div>
-            <h3 className="text-lg font-black uppercase tracking-[0.15em]">
+            <h3 className="text-base font-black uppercase tracking-[0.15em] sm:text-lg">
               Product Categories
             </h3>
 
-            <div className="mt-8 space-y-4">
+            <div className="mt-6 space-y-3 sm:mt-8 sm:space-y-4">
               {productLinks.map((item) => (
                 <Link
                   key={item}
@@ -136,11 +134,11 @@ export default function Footer() {
                   className="group flex items-center gap-3 text-gray-400 transition duration-300 hover:text-[#36B1C7]"
                 >
                   <ChevronRight
-                    size={16}
+                    size={15}
                     className="transition-transform duration-300 group-hover:translate-x-1"
                   />
 
-                  <span className="text-sm font-semibold uppercase tracking-[0.12em]">
+                  <span className="text-xs font-semibold uppercase tracking-[0.12em] sm:text-sm">
                     {item}
                   </span>
                 </Link>
@@ -149,75 +147,71 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* CONTACT INFO */}
-        <div className="grid gap-6 border-b border-white/10 py-10 lg:grid-cols-3">
-          {/* PHONE */}
-          <div className="flex items-start gap-4 rounded-[30px] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#36B1C7]/15 text-[#36B1C7]">
-              <Phone size={24} />
+        {/* CONTACT */}
+        <div className="grid gap-4 border-b border-white/10 py-8 sm:gap-6 sm:py-10 lg:grid-cols-3">
+          {[
+            {
+              icon: <Phone size={22} />,
+              title: "Phone",
+              content: (
+                <a
+                  href="tel:+966538357119"
+                  className="mt-2 block text-base font-bold text-white transition hover:text-[#36B1C7] sm:text-lg"
+                >
+                  +966 53 835 7119
+                </a>
+              ),
+            },
+            {
+              icon: <Mail size={22} />,
+              title: "Email",
+              content: (
+                <a
+                  href="mailto:anstrade@yahoo.com"
+                  className="mt-2 block break-all text-base font-bold text-white transition hover:text-[#36B1C7] sm:text-lg"
+                >
+                  anstrade@yahoo.com
+                </a>
+              ),
+            },
+            {
+              icon: <MapPin size={22} />,
+              title: "Location",
+              content: (
+                <p className="mt-2 text-base font-bold leading-7 text-white sm:text-lg">
+                  Ghorabi Electrical Market,
+                  <br />
+                  Batha, Riyadh
+                </p>
+              ),
+            },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="flex items-start gap-4 rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl sm:p-6"
+            >
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#36B1C7]/15 text-[#36B1C7] sm:h-14 sm:w-14">
+                {item.icon}
+              </div>
+
+              <div>
+                <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500 sm:text-xs">
+                  {item.title}
+                </p>
+
+                {item.content}
+              </div>
             </div>
-
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">
-                Phone
-              </p>
-
-              <a
-                href="tel:+966538357119"
-                className="mt-2 block text-lg font-bold text-white transition hover:text-[#36B1C7]"
-              >
-                +966 53 835 7119
-              </a>
-            </div>
-          </div>
-
-          {/* EMAIL */}
-          <div className="flex items-start gap-4 rounded-[30px] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#36B1C7]/15 text-[#36B1C7]">
-              <Mail size={24} />
-            </div>
-
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">
-                Email
-              </p>
-
-              <a
-                href="mailto:anstrade@yahoo.com"
-                className="mt-2 block text-lg font-bold text-white transition hover:text-[#36B1C7]"
-              >
-                anstrade@yahoo.com
-              </a>
-            </div>
-          </div>
-
-          {/* LOCATION */}
-          <div className="flex items-start gap-4 rounded-[30px] border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#36B1C7]/15 text-[#36B1C7]">
-              <MapPin size={24} />
-            </div>
-
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">
-                Location
-              </p>
-
-              <p className="mt-2 text-lg font-bold leading-7 text-white">
-                Ghorabi Electrical Market,
-                <br />
-                Batha, Riyadh
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
 
         {/* BOTTOM */}
-        <div className="flex flex-col items-center justify-between gap-4 pt-8 text-center lg:flex-row lg:text-left">
-          <p className="text-sm text-gray-500">
+        <div className="flex flex-col items-center justify-between gap-3 pt-6 text-center sm:pt-8 lg:flex-row lg:text-left">
+          <p className="text-xs leading-6 text-gray-500 sm:text-sm">
             © 2026 TALA AABDUL RAHMAN ALMUHANNA CO. All rights reserved.
           </p>
 
-          <p className="text-sm text-gray-500">
+          <p className="text-xs leading-6 text-gray-500 sm:text-sm">
             Premium Electrical & Mechanical Industrial Supply Solutions
           </p>
         </div>

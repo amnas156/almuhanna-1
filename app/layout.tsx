@@ -14,10 +14,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   title:
     "TALA AABDUL RAHMAN ALMUHANNA CO. | Electrical & Mechanical Trading Saudi Arabia",
-
   description:
     "TALA AABDUL RAHMAN ALMUHANNA CO. is a trusted electrical & mechanical industrial supply company in Riyadh, Saudi Arabia delivering premium industrial products and engineering solutions.",
-
   keywords: [
     "Electrical Trading Saudi Arabia",
     "Mechanical Trading Riyadh",
@@ -28,28 +26,16 @@ export const metadata: Metadata = {
     "Transformers",
     "Almuhanna Co",
   ],
-
-  authors: [
-    {
-      name: "TALA AABDUL RAHMAN ALMUHANNA CO.",
-    },
-  ],
-
+  authors: [{ name: "TALA AABDUL RAHMAN ALMUHANNA CO." }],
   creator: "TALA AABDUL RAHMAN ALMUHANNA CO.",
-
   metadataBase: new URL("https://www.almuhannaco.com"),
-
   openGraph: {
     title:
       "TALA AABDUL RAHMAN ALMUHANNA CO. | Electrical & Mechanical Trading Saudi Arabia",
-
     description:
       "Reliable industrial supply partner in Saudi Arabia for electrical & mechanical products.",
-
     url: "https://www.almuhannaco.com",
-
     siteName: "ALMUHANNA CO.",
-
     images: [
       {
         url: "/og-image.jpg",
@@ -58,28 +44,21 @@ export const metadata: Metadata = {
         alt: "ALMUHANNA CO.",
       },
     ],
-
     locale: "en_US",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
-
     title:
       "TALA AABDUL RAHMAN ALMUHANNA CO. | Electrical & Mechanical Trading Saudi Arabia",
-
     description:
       "Premium industrial electrical & mechanical supply solutions in Saudi Arabia.",
-
     images: ["/og-image.jpg"],
   },
-
   robots: {
     index: true,
     follow: true,
   },
-
   icons: {
     icon: "/favicon.ico",
   },
@@ -93,13 +72,9 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-
     name: "TALA AABDUL RAHMAN ALMUHANNA CO.",
-
     url: "https://www.almuhannaco.com",
-
     logo: "https://www.almuhannaco.com/logo.png",
-
     contactPoint: {
       "@type": "ContactPoint",
       telephone: "+966538357119",
@@ -107,58 +82,48 @@ export default function RootLayout({
       areaServed: "SA",
       availableLanguage: ["English", "Arabic"],
     },
-
     address: {
       "@type": "PostalAddress",
       streetAddress: "Ghorabi Electrical Market, Batha",
       addressLocality: "Riyadh",
-      addressCountry: "Saudi Arabia",
+      addressCountry: "SA",
     },
-
     sameAs: ["https://wa.me/966538357119"],
   };
 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.variable} bg-white font-sans text-[#0B0F19] antialiased`}
+        className={`${inter.variable} min-h-screen overflow-x-hidden bg-white font-sans text-[#0B0F19] antialiased`}
       >
-        {/* JSON-LD SCHEMA */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd),
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
           }}
         />
 
-        {/* GLOBAL BACKGROUND */}
         <div className="fixed inset-0 -z-50 overflow-hidden bg-white">
-          {/* CYAN GLOW */}
-          <div className="absolute left-0 top-0 h-[500px] w-[500px] rounded-full bg-[#36B1C7]/10 blur-[140px]" />
+          <div className="absolute -left-24 top-0 h-[260px] w-[260px] rounded-full bg-[#36B1C7]/10 blur-[90px] sm:h-[500px] sm:w-[500px] sm:blur-[140px]" />
 
-          {/* BURGUNDY GLOW */}
-          <div className="absolute bottom-0 right-0 h-[500px] w-[500px] rounded-full bg-[#960B33]/10 blur-[140px]" />
+          <div className="absolute -right-24 bottom-0 h-[260px] w-[260px] rounded-full bg-[#960B33]/10 blur-[90px] sm:h-[500px] sm:w-[500px] sm:blur-[140px]" />
 
-          {/* GRID PATTERN */}
           <div
             className="absolute inset-0 opacity-[0.03]"
             style={{
               backgroundImage:
                 "linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px)",
-              backgroundSize: "80px 80px",
+              backgroundSize: "60px 60px",
             }}
           />
         </div>
 
-        {/* NAVBAR */}
         <Navbar />
 
-        {/* MAIN CONTENT */}
-        <main className="min-h-screen pt-[100px]">
+        <main className="min-h-screen pt-[76px] sm:pt-[90px]">
           {children}
         </main>
 
-        {/* FOOTER */}
         <Footer />
       </body>
     </html>

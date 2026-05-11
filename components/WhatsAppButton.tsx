@@ -30,19 +30,19 @@ Code: ${productCode}`
 
   return (
     <motion.a
-      whileHover={{ scale: 1.04 }}
+      whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.96 }}
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group inline-flex items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-7 py-4 text-sm font-black uppercase tracking-[0.15em] text-white shadow-[0_0_35px_rgba(54,177,199,0.28)] transition duration-300 hover:shadow-[0_0_55px_rgba(54,177,199,0.4)] ${className}`}
+      className={`group inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#36B1C7] to-[#960B33] px-5 py-4 text-xs font-black uppercase tracking-[0.12em] text-white shadow-[0_0_30px_rgba(54,177,199,0.24)] transition duration-300 hover:shadow-[0_0_50px_rgba(54,177,199,0.38)] sm:w-auto sm:px-7 sm:text-sm sm:tracking-[0.15em] ${className}`}
     >
       <MessageCircle
-        size={18}
-        className="transition duration-300 group-hover:rotate-6"
+        size={17}
+        className="shrink-0 transition duration-300 group-hover:rotate-6 sm:h-[18px] sm:w-[18px]"
       />
 
-      <span>{label}</span>
+      <span className="truncate">{label}</span>
     </motion.a>
   );
 }
