@@ -7,8 +7,10 @@ import {
 } from "lucide-react";
 
 import CTASection from "@/components/CTASection";
+import LocationMap from "@/components/LocationMap";
 import SectionHeader from "@/components/SectionHeader";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { officeLocation } from "@/data/location";
 
 const contactCards = [
   {
@@ -21,15 +23,15 @@ const contactCards = [
   {
     icon: Mail,
     title: "Email Address",
-    value: "anstrade@yahoo.com",
-    link: "mailto:anstrade@yahoo.com",
+    value: "sales@almohannasa.com",
+    link: "mailto:sales@almohannasa.com",
   },
 
   {
     icon: MapPin,
     title: "Office Location",
-    value: "Ghorabi Electrical Market, Batha, Riyadh",
-    link: "#",
+    value: officeLocation.shortLabel,
+    link: officeLocation.mapLink,
   },
 
   {
@@ -154,42 +156,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* MAP */}
-          <div className="overflow-hidden rounded-3xl border border-white/20 bg-white/80 shadow-[0_15px_60px_rgba(0,0,0,0.05)] backdrop-blur-2xl sm:rounded-[40px]">
-            <div className="relative h-full min-h-[380px] sm:min-h-[500px]">
-              <iframe
-                src="https://www.google.com/maps?q=Ghorabi+Electrical+Market+Batha+Riyadh&output=embed"
-                width="100%"
-                height="100%"
-                loading="lazy"
-                className="absolute inset-0 h-full w-full border-0"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-
-              {/* OVERLAY CARD */}
-              <div className="absolute bottom-4 left-4 right-4 rounded-3xl border border-white/20 bg-white/85 p-4 shadow-xl backdrop-blur-2xl sm:bottom-6 sm:left-6 sm:right-6 sm:rounded-[30px] sm:p-6">
-                <div className="flex items-start gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-r from-[#36B1C7] to-[#960B33] text-white sm:h-14 sm:w-14">
-                    <MapPin size={22} />
-                  </div>
-
-                  <div>
-                    <h3 className="text-lg font-black uppercase text-[#0B0F19] sm:text-xl">
-                      Riyadh Office
-                    </h3>
-
-                    <p className="mt-2 text-sm leading-7 text-gray-600 sm:text-base">
-                      Ghorabi Electrical Market,
-                      <br />
-                      Batha, Riyadh,
-                      <br />
-                      Saudi Arabia
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <LocationMap />
         </div>
       </section>
 

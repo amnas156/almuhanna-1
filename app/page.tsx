@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { ArrowUpRight, ShieldCheck, BadgeCheck } from "lucide-react";
@@ -8,12 +7,15 @@ import { clients } from "@/data/clients";
 import { products } from "@/data/products";
 
 import BrandWall from "@/components/BrandWall";
+import HeroVideo from "@/components/HeroVideo";
 import CTASection from "@/components/CTASection";
 import FAQ from "@/components/FAQ";
 import FAQPopupButton from "@/components/FAQPopupButton";
+import LocationMap from "@/components/LocationMap";
 import ProductCard from "@/components/ProductCard";
 import SectionHeader from "@/components/SectionHeader";
 import StatsCard from "@/components/StatsCard";
+import Testimonials from "@/components/Testimonials";
 
 export default function HomePage() {
   const featuredProducts = products.slice(0, 6);
@@ -97,16 +99,7 @@ export default function HomePage() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <div className="relative overflow-hidden rounded-[28px] border border-white/20 bg-white/50 shadow-[0_20px_70px_rgba(0,0,0,0.08)] backdrop-blur-2xl sm:rounded-[32px]">
-              <Image
-                src="/images/hero/industrial-hero.jpg"
-                alt="Industrial Solutions"
-                width={900}
-                height={700}
-                className="h-[280px] w-full object-cover sm:h-full"
-                priority
-              />
-            </div>
+            <HeroVideo src="/videos/hero-video.mp4" />
 
             <div className="relative mx-auto -mt-7 w-[92%] rounded-[24px] border border-white/20 bg-white/85 p-4 shadow-[0_15px_60px_rgba(0,0,0,0.08)] backdrop-blur-2xl sm:absolute sm:-bottom-10 sm:-left-10 sm:mt-0 sm:w-auto sm:rounded-[28px] sm:p-6">
               <div className="flex items-center gap-3 sm:gap-4">
@@ -202,6 +195,24 @@ export default function HomePage() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <Testimonials />
+
+      <section className="px-4 py-16 sm:px-6 sm:py-20 lg:px-10">
+        <div className="mx-auto max-w-7xl">
+          <SectionHeader
+            badge="Visit Us"
+            title="Find Our"
+            highlight="Riyadh Office"
+            description="Visit our office in Ghorabi Electrical Market, Batha, Riyadh, or open the location in Google Maps for directions."
+            center
+          />
+
+          <div className="mt-12 sm:mt-14">
+            <LocationMap minHeightClassName="min-h-[320px] sm:min-h-[420px]" />
           </div>
         </div>
       </section>

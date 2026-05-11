@@ -6,7 +6,7 @@ export const COMPANY = {
 
   phone: "+966 53 835 7119",
   whatsapp: "966538357119",
-  email: "anstrade@yahoo.com",
+  email: "sales@almohannasa.com",
 
   address: "Ghorabi Electrical Market, Batha, Riyadh",
   city: "Riyadh",

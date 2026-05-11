@@ -167,10 +167,10 @@ export default function Footer() {
               title: "Email",
               content: (
                 <a
-                  href="mailto:anstrade@yahoo.com"
+                  href="mailto:sales@almohannasa.com"
                   className="mt-2 block break-all text-base font-bold text-white transition hover:text-[#36B1C7] sm:text-lg"
                 >
-                  anstrade@yahoo.com
+                  sales@almohannasa.com
                 </a>
               ),
             },
