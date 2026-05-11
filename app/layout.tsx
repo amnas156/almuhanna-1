@@ -120,11 +120,13 @@ export default function RootLayout({
 
         <Navbar />
 
-        <main className="min-h-screen pt-[76px] sm:pt-[90px]">
+        <main className="min-h-screen bg-white pt-[76px] sm:pt-[90px]">
           {children}
         </main>
 
-        <Footer />
+        <div className="relative z-10 bg-[#060B16]">
+          <Footer />
+        </div>
       </body>
     </html>
   );
