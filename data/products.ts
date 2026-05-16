@@ -1,5 +1,3 @@
-// data/products.ts
-
 export interface Product {
   id: number;
   title: string;
@@ -25,7 +23,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 3/4'' CHINA",
     code: "EMT-002",
     category: "Conduit Pipe",
-    image: "/products/product-2.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 3/4'' CHINA for industrial electrical applications.",
   },
@@ -35,7 +33,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 3/4'' ZINC TECH KSA",
     code: "EMT-003",
     category: "Conduit Pipe",
-    image: "/products/product-3.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 3/4'' ZINC TECH KSA for industrial electrical applications.",
   },
@@ -45,7 +43,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 1''",
     code: "EMT-004",
     category: "Conduit Pipe",
-    image: "/products/product-4.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 1'' for industrial electrical applications.",
   },
@@ -55,7 +53,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 1-1/4''",
     code: "EMT-005",
     category: "Conduit Pipe",
-    image: "/products/product-5.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 1-1/4'' for industrial electrical applications.",
   },
@@ -65,7 +63,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 1-1/2''",
     code: "EMT-006",
     category: "Conduit Pipe",
-    image: "/products/product-6.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 1-1/2'' for industrial electrical applications.",
   },
@@ -75,7 +73,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 2''",
     code: "EMT-007",
     category: "Conduit Pipe",
-    image: "/products/product-7.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 2'' for industrial electrical applications.",
   },
@@ -85,7 +83,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 2-1/2''",
     code: "EMT-008",
     category: "Conduit Pipe",
-    image: "/products/product-8.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 2-1/2'' for industrial electrical applications.",
   },
@@ -95,7 +93,7 @@ export const products: Product[] = [
     title: "EMT CONDUIT PIPE 3''",
     code: "EMT-009",
     category: "Conduit Pipe",
-    image: "/products/product-9.jpg",
+    image: "/products/product-1.jpg",
     description:
       "High quality EMT CONDUIT PIPE 3'' for industrial electrical applications.",
   },
@@ -115,7 +113,7 @@ export const products: Product[] = [
     title: "EMT BEND 3/4''",
     code: "EMT-011",
     category: "EMT Bend",
-    image: "/products/product-11.jpg",
+    image: "/products/product-10.jpg",
     description:
       "High quality EMT BEND 3/4'' for industrial electrical applications.",
   },
@@ -125,7 +123,7 @@ export const products: Product[] = [
     title: "EMT BEND 1''",
     code: "EMT-012",
     category: "EMT Bend",
-    image: "/products/product-12.jpg",
+    image: "/products/product-10.jpg",
     description:
       "High quality EMT BEND 1'' for industrial electrical applications.",
   },
@@ -135,7 +133,7 @@ export const products: Product[] = [
     title: "EMT BEND 1-1/4''",
     code: "EMT-013",
     category: "EMT Bend",
-    image: "/products/product-13.jpg",
+    image: "/products/product-10.jpg",
     description:
       "High quality EMT BEND 1-1/4'' for industrial electrical applications.",
   },
@@ -145,7 +143,7 @@ export const products: Product[] = [
     title: "EMT BEND 1-1/2''",
     code: "EMT-014",
     category: "EMT Bend",
-    image: "/products/product-14.jpg",
+    image: "/products/product-10.jpg",
     description:
       "High quality EMT BEND 1-1/2'' for industrial electrical applications.",
   },
@@ -155,7 +153,7 @@ export const products: Product[] = [
     title: "EMT BEND 2''",
     code: "EMT-015",
     category: "EMT Bend",
-    image: "/products/product-15.jpg",
+    image: "/products/product-10.jpg",
     description:
       "High quality EMT BEND 2'' for industrial electrical applications.",
   },
@@ -175,7 +173,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 1/2'' CH",
     code: "EMT-017",
     category: "Clamp",
-    image: "/products/product-17.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 1/2'' CH for industrial electrical applications.",
   },
@@ -185,7 +183,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 3/4'' UL",
     code: "EMT-018",
     category: "Clamp",
-    image: "/products/product-18.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 3/4'' UL for industrial electrical applications.",
   },
@@ -195,7 +193,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 3/4'' CH",
     code: "EMT-019",
     category: "Clamp",
-    image: "/products/product-19.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 3/4'' CH for industrial electrical applications.",
   },
@@ -205,7 +203,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 1'' UL",
     code: "EMT-020",
     category: "Clamp",
-    image: "/products/product-20.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 1'' UL for industrial electrical applications.",
   },
@@ -215,7 +213,7 @@ export const products: Product[] = [
   title: "EMT CLAMP 1 HOLE 1'' CH",
   code: "EMT-021",
   category: "Clamp",
-  image: "/products/product-21.jpg",
+  image: "/products/product-16.jpg",
   description:
     "High quality EMT CLAMP 1 HOLE 1'' CH for industrial electrical applications.",
   },
@@ -225,7 +223,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 1-1/4''",
     code: "EMT-022",
     category: "Clamp",
-    image: "/products/product-22.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 1-1/4'' for industrial electrical applications.",
   },
@@ -235,7 +233,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 1-1/2''",
     code: "EMT-023",
     category: "Clamp",
-    image: "/products/product-23.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 1-1/2'' for industrial electrical applications.",
   },
@@ -245,7 +243,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 1 HOLE 2''",
     code: "EMT-024",
     category: "Clamp",
-    image: "/products/product-24.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality EMT CLAMP 1 HOLE 2'' for industrial electrical applications.",
   },
@@ -265,7 +263,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 1/2'' CH",
     code: "EMT-026",
     category: "Clamp",
-    image: "/products/product-26.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 1/2'' CH for industrial electrical applications.",
   },
@@ -275,7 +273,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 3/4''",
     code: "EMT-027",
     category: "Clamp",
-    image: "/products/product-27.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 3/4'' for industrial electrical applications.",
   },
@@ -285,7 +283,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 1''",
     code: "EMT-028",
     category: "Clamp",
-    image: "/products/product-28.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 1'' for industrial electrical applications.",
   },
@@ -295,7 +293,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 1-1/4''",
     code: "EMT-029",
     category: "Clamp",
-    image: "/products/product-29.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 1-1/4'' for industrial electrical applications.",
   },
@@ -305,7 +303,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 1-1/2''",
     code: "EMT-030",
     category: "Clamp",
-    image: "/products/product-30.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 1-1/2'' for industrial electrical applications.",
   },
@@ -315,7 +313,7 @@ export const products: Product[] = [
     title: "EMT CLAMP 2 HOLE 2''",
     code: "EMT-031",
     category: "Clamp",
-    image: "/products/product-31.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality EMT CLAMP 2 HOLE 2'' for industrial electrical applications.",
   },
@@ -325,7 +323,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 1 HOLE 3/4''",
     code: "EMT-032",
     category: "Rigid Clamp",
-    image: "/products/product-32.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality RIGID CLAMP 1 HOLE 3/4'' for industrial electrical applications.",
   },
@@ -335,7 +333,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 1 HOLE 1''",
     code: "EMT-033",
     category: "Rigid Clamp",
-    image: "/products/product-33.jpg",
+    image: "/products/product-16.jpg",
     description:
       "High quality RIGID CLAMP 1 HOLE 1'' for industrial electrical applications.",
   },
@@ -345,7 +343,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 2 HOLE 3/4''",
     code: "EMT-034",
     category: "Rigid Clamp",
-    image: "/products/product-34.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality RIGID CLAMP 2 HOLE 3/4'' for industrial electrical applications.",
   },
@@ -355,7 +353,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 2 HOLE 1''",
     code: "EMT-035",
     category: "Rigid Clamp",
-    image: "/products/product-35.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality RIGID CLAMP 2 HOLE 1'' for industrial electrical applications.",
   },
@@ -365,7 +363,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 2 HOLE 2''",
     code: "EMT-036",
     category: "Rigid Clamp",
-    image: "/products/product-36.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality RIGID CLAMP 2 HOLE 2'' for industrial electrical applications.",
   },
@@ -375,7 +373,7 @@ export const products: Product[] = [
     title: "RIGID CLAMP 2 HOLE 2-1/2''",
     code: "EMT-037",
     category: "Rigid Clamp",
-    image: "/products/product-37.jpg",
+    image: "/products/product-25.jpg",
     description:
       "High quality RIGID CLAMP 2 HOLE 2-1/2'' for industrial electrical applications.",
   },
@@ -405,7 +403,7 @@ export const products: Product[] = [
     title: "RIGID CONNECTOR 3/4'' SCREW TYPE",
     code: "EMT-040",
     category: "Rigid Connector",
-    image: "/products/product-40.jpg",
+    image: "/products/product-39.jpg",
     description:
       "High quality RIGID CONNECTOR 3/4'' SCREW TYPE for industrial electrical applications.",
   },
@@ -414,7 +412,7 @@ export const products: Product[] = [
   title: "RIGID CONNECTOR 1'' SCREW TYPE",
   code: "EMT-041",
   category: "Rigid Connector",
-  image: "/products/product-41.jpg",
+  image: "/products/product-39.jpg",
   description:
     "High quality RIGID CONNECTOR 1'' SCREW TYPE for industrial electrical applications.",
 },
@@ -424,7 +422,7 @@ export const products: Product[] = [
   title: "RIGID CONNECTOR 1-1/4'' SCREW TYPE",
   code: "EMT-042",
   category: "Rigid Connector",
-  image: "/products/product-42.jpg",
+  image: "/products/product-39.jpg",
   description:
     "High quality RIGID CONNECTOR 1-1/4'' SCREW TYPE for industrial electrical applications.",
 },
@@ -434,7 +432,7 @@ export const products: Product[] = [
   title: "RIGID CONNECTOR 1-1/2'' SCREW TYPE",
   code: "EMT-043",
   category: "Rigid Connector",
-  image: "/products/product-43.jpg",
+  image: "/products/product-39.jpg",
   description:
     "High quality RIGID CONNECTOR 1-1/2'' SCREW TYPE for industrial electrical applications.",
 },
@@ -444,7 +442,7 @@ export const products: Product[] = [
   title: "RIGID CONNECTOR 2'' SCREW TYPE",
   code: "EMT-044",
   category: "Rigid Connector",
-  image: "/products/product-44.jpg",
+  image: "/products/product-39.jpg",
   description:
     "High quality RIGID CONNECTOR 2'' SCREW TYPE for industrial electrical applications.",
 },
@@ -464,7 +462,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 1'' SCREW TYPE",
   code: "EMT-046",
   category: "Rigid Coupling",
-  image: "/products/product-46.jpg",
+  image: "/products/product-45.jpg",
   description:
     "High quality RIGID COUPLING 1'' SCREW TYPE for industrial electrical applications.",
 },
@@ -484,7 +482,7 @@ export const products: Product[] = [
   title: "REDUCER 1'' X 3/4''",
   code: "EMT-048",
   category: "Reducer",
-  image: "/products/product-48.jpg",
+  image: "/products/product-47.jpg",
   description:
     "High quality REDUCER 1'' X 3/4'' for industrial electrical applications.",
 },
@@ -494,7 +492,7 @@ export const products: Product[] = [
   title: "REDUCER 1'' X 1/2''",
   code: "EMT-049",
   category: "Reducer",
-  image: "/products/product-49.jpg",
+  image: "/products/product-47.jpg",
   description:
     "High quality REDUCER 1'' X 1/2'' for industrial electrical applications.",
 },
@@ -514,7 +512,7 @@ export const products: Product[] = [
   title: "EMT BOX 10X10 - 1/2'' & 3/4'' HOLE 52151",
   code: "EMT-051",
   category: "EMT Box",
-  image: "/products/product-51.jpg",
+  image: "/products/product-50.jpg",
   description:
     "High quality EMT BOX 10X10 - 1/2'' & 3/4'' HOLE 52151 for industrial electrical applications.",
 },
@@ -524,7 +522,7 @@ export const products: Product[] = [
   title: "EMT BOX 10X10-3/4\" HOLE 1.6 MM WITH GROUNDING SCREW ITCC MODEL",
   code: "EMT-052",
   category: "EMT Box",
-  image: "/products/product-52.jpg",
+  image: "/products/product-50.jpg",
   description:
     "High quality EMT BOX 10X10-3/4\" HOLE 1.6 MM WITH GROUNDING SCREW ITCC MODEL for industrial electrical applications.",
 },
@@ -544,7 +542,7 @@ export const products: Product[] = [
   title: "EMT OCTOGONAL BOX 9X9 CM 3/4\" HOLE 1.5 MM THICKNESS ITCC MODEL",
   code: "EMT-054",
   category: "Octogonal Box",
-  image: "/products/product-54.jpg",
+  image: "/products/product-53.jpg",
   description:
     "High quality EMT OCTOGONAL BOX 9X9 CM 3/4\" HOLE 1.5 MM THICKNESS ITCC MODEL for industrial electrical applications.",
 },
@@ -564,7 +562,7 @@ export const products: Product[] = [
   title: "EMT BOX 10X10 CM DEEP 3/4\" HOLE 52171-3/4 STEEL CITY MODEL",
   code: "EMT-056",
   category: "EMT Box",
-  image: "/products/product-56.jpg",
+  image: "/products/product-55.jpg",
   description:
     "High quality EMT BOX 10X10 CM DEEP 3/4\" HOLE 52171-3/4 STEEL CITY MODEL for industrial electrical applications.",
 },
@@ -584,7 +582,7 @@ export const products: Product[] = [
   title: "EMT BOX 10X10 CM DEEP 3/4\" HOLE ITCC MODEL 52171-3/4",
   code: "EMT-058",
   category: "EMT Box",
-  image: "/products/product-58.jpg",
+  image: "/products/product-57.jpg",
   description:
     "High quality EMT BOX 10X10 CM DEEP 3/4\" HOLE ITCC MODEL 52171-3/4 for industrial electrical applications.",
 },
@@ -624,7 +622,7 @@ export const products: Product[] = [
   title: "RING BOX 7X14X3.5 CM HOLE",
   code: "EMT-062",
   category: "Ring Box",
-  image: "/products/product-62.jpg",
+  image: "/products/product-61.jpg",
   description:
     "High quality RING BOX 7X14X3.5 CM HOLE for industrial electrical applications.",
 },
@@ -634,7 +632,7 @@ export const products: Product[] = [
   title: "RING BOX 9X9X1.6 CM HOLE",
   code: "EMT-063",
   category: "Ring Box",
-  image: "/products/product-63.jpg",
+  image: "/products/product-61.jpg",
   description:
     "High quality RING BOX 9X9X1.6 CM HOLE for industrial electrical applications.",
 },
@@ -644,7 +642,7 @@ export const products: Product[] = [
   title: "RING BOX 10X10 - 3/4'' HOLE",
   code: "EMT-064",
   category: "Ring Box",
-  image: "/products/product-64.jpg",
+  image: "/products/product-61.jpg",
   description:
     "High quality RING BOX 10X10 - 3/4'' HOLE for industrial electrical applications.",
 },
@@ -664,7 +662,7 @@ export const products: Product[] = [
   title: "W/P BOX 3 HOLE 10X10 - 3/4''",
   code: "EMT-066",
   category: "Water Proof Box",
-  image: "/products/product-66.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P BOX 3 HOLE 10X10 - 3/4'' for industrial electrical applications.",
 },
@@ -674,7 +672,7 @@ export const products: Product[] = [
   title: "W/P BOX 5X10 CM 3/4\" HOLE 3 HOLE 1G75-3",
   code: "EMT-067",
   category: "Water Proof Box",
-  image: "/products/product-67.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P BOX 5X10 CM 3/4\" HOLE 3 HOLE 1G75-3 for industrial electrical applications.",
 },
@@ -684,7 +682,7 @@ export const products: Product[] = [
   title: "W/P BOX 5X10 CM 1\" HOLE 3 HOLE 1G100-3",
   code: "EMT-068",
   category: "Water Proof Box",
-  image: "/products/product-68.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P BOX 5X10 CM 1\" HOLE 3 HOLE 1G100-3 for industrial electrical applications.",
 },
@@ -694,7 +692,7 @@ export const products: Product[] = [
   title: "W/P DEEP BOX 5X10 CM 3/4\" HOLE 3 HOLE 1DG75-3",
   code: "EMT-069",
   category: "Water Proof Box",
-  image: "/products/product-69.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P DEEP BOX 5X10 CM 3/4\" HOLE 3 HOLE 1DG75-3 for industrial electrical applications.",
 },
@@ -704,7 +702,7 @@ export const products: Product[] = [
   title: "W/P DEEP BOX 5X10 CM 1\" HOLE 3 HOLE 1DG100-3",
   code: "EMT-070",
   category: "Water Proof Box",
-  image: "/products/product-70.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P DEEP BOX 5X10 CM 1\" HOLE 3 HOLE 1DG100-3 for industrial electrical applications.",
 },
@@ -714,7 +712,7 @@ export const products: Product[] = [
   title: "W/P BOX 10X10 CM 3/4\" HOLE 5 HOLE ALL SIDE SINGLE HOLE 2G75-5X",
   code: "EMT-071",
   category: "Water Proof Box",
-  image: "/products/product-71.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P BOX 10X10 CM 3/4\" HOLE 5 HOLE ALL SIDE SINGLE HOLE 2G75-5X for industrial electrical applications.",
 },
@@ -724,7 +722,7 @@ export const products: Product[] = [
   title: "W/P BOX 10X10 CM 1\" HOLE 5 HOLE ALL SIDE SINGLE HOLE 2G100-5X",
   code: "EMT-072",
   category: "Water Proof Box",
-  image: "/products/product-72.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P BOX 10X10 CM 1\" HOLE 5 HOLE ALL SIDE SINGLE HOLE 2G100-5X for industrial electrical applications.",
 },
@@ -734,7 +732,7 @@ export const products: Product[] = [
   title: "W/P DEEP BOX 10X10 CM 3/4\" 5 HOLE 2DG75-5",
   code: "EMT-073",
   category: "Water Proof Box",
-  image: "/products/product-73.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P DEEP BOX 10X10 CM 3/4\" 5 HOLE 2DG75-5 for industrial electrical applications.",
 },
@@ -744,7 +742,7 @@ export const products: Product[] = [
   title: "W/P DEEP BOX 10X10 CM 1\" 5 HOLE 2DG100-5",
   code: "EMT-074",
   category: "Water Proof Box",
-  image: "/products/product-74.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P DEEP BOX 10X10 CM 1\" 5 HOLE 2DG100-5 for industrial electrical applications.",
 },
@@ -754,7 +752,7 @@ export const products: Product[] = [
   title: "W/P DEEP BOX 10X10 CM 1\" 7 HOLE 2DG100-7",
   code: "EMT-075",
   category: "Water Proof Box",
-  image: "/products/product-75.jpg",
+  image: "/products/product-65.jpg",
   description:
     "High quality W/P DEEP BOX 10X10 CM 1\" 7 HOLE 2DG100-7 for industrial electrical applications.",
 },
@@ -794,7 +792,7 @@ export const products: Product[] = [
   title: "WATER PROOF COVER GREY 10X10 CM UL",
   code: "EMT-079",
   category: "Water Proof Cover",
-  image: "/products/product-79.jpg",
+  image: "/products/product-78.jpg",
   description:
     "High quality WATER PROOF COVER GREY 10X10 CM UL for industrial electrical applications.",
 },
@@ -814,7 +812,7 @@ export const products: Product[] = [
   title: "EMT BOX 20X20X5",
   code: "EMT-081",
   category: "EMT Box",
-  image: "/products/product-81.jpg",
+  image: "/products/product-80.jpg",
   description:
     "High quality EMT BOX 20X20X5 for industrial electrical applications.",
 },
@@ -824,7 +822,7 @@ export const products: Product[] = [
   title: "EMT BOX 20X20X10",
   code: "EMT-082",
   category: "EMT Box",
-  image: "/products/product-82.jpg",
+  image: "/products/product-80.jpg",
   description:
     "High quality EMT BOX 20X20X10 for industrial electrical applications.",
 },
@@ -844,7 +842,7 @@ export const products: Product[] = [
   title: "EMT BOX 30X30X5",
   code: "EMT-084",
   category: "EMT Box",
-  image: "/products/product-84.jpg",
+  image: "/products/product-83.jpg",
   description:
     "High quality EMT BOX 30X30X5 for industrial electrical applications.",
 },
@@ -854,7 +852,7 @@ export const products: Product[] = [
   title: "EMT BOX 30X30X10",
   code: "EMT-085",
   category: "EMT Box",
-  image: "/products/product-85.jpg",
+  image: "/products/product-83.jpg",
   description:
     "High quality EMT BOX 30X30X10 for industrial electrical applications.",
 },
@@ -864,7 +862,7 @@ export const products: Product[] = [
   title: "EMT BOX 40X40X10",
   code: "EMT-086",
   category: "EMT Box",
-  image: "/products/product-86.jpg",
+  image: "/products/product-83.jpg",
   description:
     "High quality EMT BOX 40X40X10 for industrial electrical applications.",
 },
@@ -884,7 +882,7 @@ export const products: Product[] = [
   title: "C-CHANNEL 41X21X1.2 MM",
   code: "EMT-088",
   category: "C-Channel",
-  image: "/products/product-88.jpg",
+  image: "/products/product-87.jpg",
   description:
     "High quality C-CHANNEL 41X21X1.2 MM for industrial electrical applications.",
 },
@@ -894,7 +892,7 @@ export const products: Product[] = [
   title: "C-CHANNEL 41X41X1.5 MM",
   code: "EMT-089",
   category: "C-Channel",
-  image: "/products/product-89.jpg",
+  image: "/products/product-87.jpg",
   description:
     "High quality C-CHANNEL 41X41X1.5 MM for industrial electrical applications.",
 },
@@ -904,7 +902,7 @@ export const products: Product[] = [
   title: "C-CHANNEL 41X21X1.5 MM",
   code: "EMT-090",
   category: "C-Channel",
-  image: "/products/product-90.jpg",
+  image: "/products/product-87.jpg",
   description:
     "High quality C-CHANNEL 41X21X1.5 MM for industrial electrical applications.",
 },
@@ -914,7 +912,7 @@ export const products: Product[] = [
   title: "C-CHANNEL 41X41X2 MM",
   code: "EMT-091",
   category: "C-Channel",
-  image: "/products/product-91.jpg",
+  image: "/products/product-87.jpg",
   description:
     "High quality C-CHANNEL 41X41X2 MM for industrial electrical applications.",
 },
@@ -924,7 +922,7 @@ export const products: Product[] = [
   title: "C-CHANNEL 41X21X2 MM",
   code: "EMT-092",
   category: "C-Channel",
-  image: "/products/product-92.jpg",
+  image: "/products/product-87.jpg",
   description:
     "High quality C-CHANNEL 41X21X2 MM for industrial electrical applications.",
 },
@@ -944,7 +942,7 @@ export const products: Product[] = [
   title: "EMT CHANNEL CLAMP 3/4''",
   code: "EMT-094",
   category: "Channel Clamp",
-  image: "/products/product-94.jpg",
+  image: "/products/product-93.jpg",
   description:
     "High quality EMT CHANNEL CLAMP 3/4'' for industrial electrical applications.",
 },
@@ -954,7 +952,7 @@ export const products: Product[] = [
   title: "EMT CHANNEL CLAMP 1''",
   code: "EMT-095",
   category: "Channel Clamp",
-  image: "/products/product-95.jpg",
+  image: "/products/product-93.jpg",
   description:
     "High quality EMT CHANNEL CLAMP 1'' for industrial electrical applications.",
 },
@@ -964,7 +962,7 @@ export const products: Product[] = [
   title: "EMT CHANNEL CLAMP 1-1/4''",
   code: "EMT-096",
   category: "Channel Clamp",
-  image: "/products/product-96.jpg",
+  image: "/products/product-93.jpg",
   description:
     "High quality EMT CHANNEL CLAMP 1-1/4'' for industrial electrical applications.",
 },
@@ -974,7 +972,7 @@ export const products: Product[] = [
   title: "EMT CHANNEL CLAMP 1-1/2''",
   code: "EMT-097",
   category: "Channel Clamp",
-  image: "/products/product-97.jpg",
+  image: "/products/product-93.jpg",
   description:
     "High quality EMT CHANNEL CLAMP 1-1/2'' for industrial electrical applications.",
 },
@@ -984,7 +982,7 @@ export const products: Product[] = [
   title: "EMT CHANNEL CLAMP 2''",
   code: "EMT-098",
   category: "Channel Clamp",
-  image: "/products/product-98.jpg",
+  image: "/products/product-93.jpg",
   description:
     "High quality EMT CHANNEL CLAMP 2'' for industrial electrical applications.",
 },
@@ -1004,7 +1002,7 @@ export const products: Product[] = [
   title: "THREAD ROD 10 MM X 3 MTR",
   code: "EMT-100",
   category: "Thread Rod",
-  image: "/products/product-100.jpg",
+  image: "/products/product-99.jpg",
   description:
     "High quality THREAD ROD 10 MM X 3 MTR for industrial electrical applications.",
 },
@@ -1014,7 +1012,7 @@ export const products: Product[] = [
   title: "THREAD ROD 12 MM X 3 MTR",
   code: "EMT-101",
   category: "Thread Rod",
-  image: "/products/product-101.jpg",
+  image: "/products/product-99.jpg",
   description:
     "High quality THREAD ROD 12 MM X 3 MTR for industrial electrical applications.",
 },
@@ -1034,7 +1032,7 @@ export const products: Product[] = [
   title: "BEAM CLAMP 10''",
   code: "EMT-103",
   category: "Beam Clamp",
-  image: "/products/product-103.jpg",
+  image: "/products/product-102.jpg",
   description:
     "High quality BEAM CLAMP 10'' for industrial electrical applications.",
 },
@@ -1044,7 +1042,7 @@ export const products: Product[] = [
   title: "BEAM CLAMP 12''",
   code: "EMT-104",
   category: "Beam Clamp",
-  image: "/products/product-104.jpg",
+  image: "/products/product-102.jpg",
   description:
     "High quality BEAM CLAMP 12'' for industrial electrical applications.",
 },
@@ -1064,7 +1062,7 @@ export const products: Product[] = [
   title: "KNOCK OUT SEAL 3/4''",
   code: "EMT-106",
   category: "Knock Out Seal",
-  image: "/products/product-106.jpg",
+  image: "/products/product-105.jpg",
   description:
     "High quality KNOCK OUT SEAL 3/4'' for industrial electrical applications.",
 },
@@ -1074,7 +1072,7 @@ export const products: Product[] = [
   title: "KNOCK OUT SEAL 1''",
   code: "EMT-107",
   category: "Knock Out Seal",
-  image: "/products/product-107.jpg",
+  image: "/products/product-105.jpg",
   description:
     "High quality KNOCK OUT SEAL 1'' for industrial electrical applications.",
 },
@@ -1094,7 +1092,7 @@ export const products: Product[] = [
   title: "INSULATED BUSHING 3/4''",
   code: "EMT-109",
   category: "Insulated Bushing",
-  image: "/products/product-109.jpg",
+  image: "/products/product-108.jpg",
   description:
     "High quality INSULATED BUSHING 3/4'' for industrial electrical applications.",
 },
@@ -1104,7 +1102,7 @@ export const products: Product[] = [
   title: "INSULATED BUSHING 1''",
   code: "EMT-110",
   category: "Insulated Bushing",
-  image: "/products/product-110.jpg",
+  image: "/products/product-108.jpg",
   description:
     "High quality INSULATED BUSHING 1'' for industrial electrical applications.",
 },
@@ -1114,7 +1112,7 @@ export const products: Product[] = [
   title: "INSULATED BUSHING 1-1/4''",
   code: "EMT-111",
   category: "Insulated Bushing",
-  image: "/products/product-111.jpg",
+  image: "/products/product-108.jpg",
   description:
     "High quality INSULATED BUSHING 1-1/4'' for industrial electrical applications.",
 },
@@ -1124,7 +1122,7 @@ export const products: Product[] = [
   title: "INSULATED BUSHING 1-1/2''",
   code: "EMT-112",
   category: "Insulated Bushing",
-  image: "/products/product-112.jpg",
+  image: "/products/product-108.jpg",
   description:
     "High quality INSULATED BUSHING 1-1/2'' for industrial electrical applications.",
 },
@@ -1134,7 +1132,7 @@ export const products: Product[] = [
   title: "INSULATED BUSHING 2''",
   code: "EMT-113",
   category: "Insulated Bushing",
-  image: "/products/product-113.jpg",
+  image: "/products/product-108.jpg",
   description:
     "High quality INSULATED BUSHING 2'' for industrial electrical applications.",
 },
@@ -1154,7 +1152,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 3/4''",
   code: "EMT-115",
   category: "Liquid Tight Connector",
-  image: "/products/product-115.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 3/4'' for industrial electrical applications.",
 },
@@ -1164,7 +1162,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 1''",
   code: "EMT-116",
   category: "Liquid Tight Connector",
-  image: "/products/product-116.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 1'' for industrial electrical applications.",
 },
@@ -1174,7 +1172,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 1-1/4''",
   code: "EMT-117",
   category: "Liquid Tight Connector",
-  image: "/products/product-117.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 1-1/4'' for industrial electrical applications.",
 },
@@ -1184,7 +1182,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 1-1/2''",
   code: "EMT-118",
   category: "Liquid Tight Connector",
-  image: "/products/product-118.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 1-1/2'' for industrial electrical applications.",
 },
@@ -1194,7 +1192,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 2''",
   code: "EMT-119",
   category: "Liquid Tight Connector",
-  image: "/products/product-119.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 2'' for industrial electrical applications.",
 },
@@ -1204,7 +1202,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 2-1/2''",
   code: "EMT-120",
   category: "Liquid Tight Connector",
-  image: "/products/product-120.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 2-1/2'' for industrial electrical applications.",
 },
@@ -1213,7 +1211,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 3''",
   code: "EMT-121",
   category: "Liquid Tight Connector",
-  image: "/products/product-121.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 3'' for industrial electrical applications.",
 },
@@ -1223,7 +1221,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT CONNECTOR 4''",
   code: "EMT-122",
   category: "Liquid Tight Connector",
-  image: "/products/product-122.jpg",
+  image: "/products/product-114.jpg",
   description:
     "High quality LIQUID TIGHT CONNECTOR 4'' for industrial electrical applications.",
 },
@@ -1243,7 +1241,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT FLEXIBLE COUPLING 1\" UL",
   code: "EMT-124",
   category: "Flexible Coupling",
-  image: "/products/product-124.jpg",
+  image: "/products/product-123.jpg",
   description:
     "High quality LIQUID TIGHT FLEXIBLE COUPLING 1\" UL for industrial electrical applications.",
 },
@@ -1263,7 +1261,7 @@ export const products: Product[] = [
   title: "EMT COMBINATION COUPLING 1''",
   code: "EMT-126",
   category: "Combination Coupling",
-  image: "/products/product-126.jpg",
+  image: "/products/product-125.jpg",
   description:
     "High quality EMT COMBINATION COUPLING 1'' for industrial electrical applications.",
 },
@@ -1293,7 +1291,7 @@ export const products: Product[] = [
   title: "EMT HANGER CLAMP 1''",
   code: "EMT-129",
   category: "Hanger Clamp",
-  image: "/products/product-129.jpg",
+  image: "/products/product-128.jpg",
   description:
     "High quality EMT HANGER CLAMP 1'' for industrial electrical applications.",
 },
@@ -1313,7 +1311,7 @@ export const products: Product[] = [
   title: "RIGID C-CHANNEL CLAMP 1''",
   code: "EMT-131",
   category: "Rigid Clamp",
-  image: "/products/product-131.jpg",
+  image: "/products/product-130.jpg",
   description:
     "High quality RIGID C-CHANNEL CLAMP 1'' for industrial electrical applications.",
 },
@@ -1323,7 +1321,7 @@ export const products: Product[] = [
   title: "RIGID C-CHANNEL CLAMP 2''",
   code: "EMT-132",
   category: "Rigid Clamp",
-  image: "/products/product-132.jpg",
+  image: "/products/product-130.jpg",
   description:
     "High quality RIGID C-CHANNEL CLAMP 2'' for industrial electrical applications.",
 },
@@ -1333,7 +1331,7 @@ export const products: Product[] = [
   title: "RIGID C-CHANNEL CLAMP 2-1/2''",
   code: "EMT-133",
   category: "Rigid Clamp",
-  image: "/products/product-133.jpg",
+  image: "/products/product-130.jpg",
   description:
     "High quality RIGID C-CHANNEL CLAMP 2-1/2'' for industrial electrical applications.",
 },
@@ -1343,7 +1341,7 @@ export const products: Product[] = [
   title: "RIGID CHANNEL CLAMP 3''",
   code: "EMT-134",
   category: "Rigid Clamp",
-  image: "/products/product-134.jpg",
+  image: "/products/product-130.jpg",
   description:
     "High quality RIGID CHANNEL CLAMP 3'' for industrial electrical applications.",
 },
@@ -1353,7 +1351,7 @@ export const products: Product[] = [
   title: "RIGID CHANNEL CLAMP 4''",
   code: "EMT-135",
   category: "Rigid Clamp",
-  image: "/products/product-135.jpg",
+  image: "/products/product-130.jpg",
   description:
     "High quality RIGID CHANNEL CLAMP 4'' for industrial electrical applications.",
 },
@@ -1373,7 +1371,7 @@ export const products: Product[] = [
   title: "RIGID PULL ELBOW 1''",
   code: "EMT-137",
   category: "Pull Elbow",
-  image: "/products/product-137.jpg",
+  image: "/products/product-136.jpg",
   description:
     "High quality RIGID PULL ELBOW 1'' for industrial electrical applications.",
 },
@@ -1383,7 +1381,7 @@ export const products: Product[] = [
   title: "EMT PULL ELBOW 1/2''",
   code: "EMT-138",
   category: "Pull Elbow",
-  image: "/products/product-138.jpg",
+  image: "/products/product-136.jpg",
   description:
     "High quality EMT PULL ELBOW 1/2'' for industrial electrical applications.",
 },
@@ -1393,7 +1391,7 @@ export const products: Product[] = [
   title: "EMT PULL ELBOW 3/4''",
   code: "EMT-139",
   category: "Pull Elbow",
-  image: "/products/product-139.jpg",
+  image: "/products/product-136.jpg",
   description:
     "High quality EMT PULL ELBOW 3/4'' for industrial electrical applications.",
 },
@@ -1403,7 +1401,7 @@ export const products: Product[] = [
   title: "EMT PULL ELBOW 1''",
   code: "EMT-140",
   category: "Pull Elbow",
-  image: "/products/product-140.jpg",
+  image: "/products/product-136.jpg",
   description:
     "High quality EMT PULL ELBOW 1'' for industrial electrical applications.",
 },
@@ -1423,7 +1421,7 @@ export const products: Product[] = [
   title: "EMT BENDER 3/4'' WITH HANDLE",
   code: "EMT-142",
   category: "EMT Bender",
-  image: "/products/product-142.jpg",
+  image: "/products/product-141.jpg",
   description:
     "High quality EMT BENDER 3/4'' WITH HANDLE for industrial electrical applications.",
 },
@@ -1433,7 +1431,7 @@ export const products: Product[] = [
   title: "EMT BENDER 1'' WITH HANDLE",
   code: "EMT-143",
   category: "EMT Bender",
-  image: "/products/product-143.jpg",
+  image: "/products/product-141.jpg",
   description:
     "High quality EMT BENDER 1'' WITH HANDLE for industrial electrical applications.",
 },
@@ -1463,7 +1461,7 @@ export const products: Product[] = [
   title: "RIGID BEND 1''",
   code: "EMT-146",
   category: "Rigid Bend",
-  image: "/products/product-146.jpg",
+  image: "/products/product-145.jpg",
   description:
     "High quality RIGID BEND 1'' for industrial electrical applications.",
 },
@@ -1473,7 +1471,7 @@ export const products: Product[] = [
   title: "RIGID BEND 2''",
   code: "EMT-147",
   category: "Rigid Bend",
-  image: "/products/product-147.jpg",
+  image: "/products/product-145.jpg",
   description:
     "High quality RIGID BEND 2'' for industrial electrical applications.",
 },
@@ -1483,7 +1481,7 @@ export const products: Product[] = [
   title: "RIGID BEND 2-1/2''",
   code: "EMT-148",
   category: "Rigid Bend",
-  image: "/products/product-148.jpg",
+  image: "/products/product-145.jpg",
   description:
     "High quality RIGID BEND 2-1/2'' for industrial electrical applications.",
 },
@@ -1503,7 +1501,7 @@ export const products: Product[] = [
   title: "END CAP 41X41",
   code: "EMT-150",
   category: "End Cap",
-  image: "/products/product-150.jpg",
+  image: "/products/product-149.jpg",
   description:
     "High quality END CAP 41X41 for industrial electrical applications.",
 },
@@ -1522,7 +1520,7 @@ export const products: Product[] = [
   title: "PVC SPRING BENDER 25MM",
   code: "EMT-152",
   category: "PVC Bender",
-  image: "/products/product-152.jpg",
+  image: "/products/product-151.jpg",
   description:
     "High quality PVC SPRING BENDER 25MM for industrial electrical applications.",
 },
@@ -1532,7 +1530,7 @@ export const products: Product[] = [
   title: "PVC SPRING BENDER 32MM",
   code: "EMT-153",
   category: "PVC Bender",
-  image: "/products/product-153.jpg",
+  image: "/products/product-151.jpg",
   description:
     "High quality PVC SPRING BENDER 32MM for industrial electrical applications.",
 },
@@ -1552,7 +1550,7 @@ export const products: Product[] = [
   title: "RIGID BASE CLAMP 2 HOLE 1''",
   code: "EMT-155",
   category: "Rigid Clamp",
-  image: "/products/product-155.jpg",
+  image: "/products/product-154.jpg",
   description:
     "High quality RIGID BASE CLAMP 2 HOLE 1'' for industrial electrical applications.",
 },
@@ -1582,7 +1580,7 @@ export const products: Product[] = [
   title: "PULLING WIRE MCS 60MM",
   code: "EMT-158",
   category: "Pulling Wire",
-  image: "/products/product-158.jpg",
+  image: "/products/product-157.jpg",
   description:
     "High quality PULLING WIRE MCS 60MM for industrial electrical applications.",
 },
@@ -1592,7 +1590,7 @@ export const products: Product[] = [
   title: "PULLING WIRE MCS 80MM",
   code: "EMT-159",
   category: "Pulling Wire",
-  image: "/products/product-159.jpg",
+  image: "/products/product-157.jpg",
   description:
     "High quality PULLING WIRE MCS 80MM for industrial electrical applications.",
 },
@@ -1612,7 +1610,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR FA 25MM",
   code: "EMT-161",
   category: "PVC Adaptor",
-  image: "/products/product-161.jpg",
+  image: "/products/product-160.jpg",
   description:
     "High quality PVC ADAPTOR FA 25MM for industrial electrical applications.",
 },
@@ -1632,7 +1630,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR FAFA 25MM",
   code: "EMT-163",
   category: "PVC Adaptor",
-  image: "/products/product-163.jpg",
+  image: "/products/product-162.jpg",
   description:
     "High quality PVC ADAPTOR FAFA 25MM for industrial electrical applications.",
 },
@@ -1652,7 +1650,7 @@ export const products: Product[] = [
   title: "PVC COUPLING 25MM",
   code: "EMT-165",
   category: "PVC Coupling",
-  image: "/products/product-165.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC COUPLING 25MM for industrial electrical applications.",
 },
@@ -1662,7 +1660,7 @@ export const products: Product[] = [
   title: "PVC COUPLING 32MM",
   code: "EMT-166",
   category: "PVC Coupling",
-  image: "/products/product-166.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC COUPLING 32MM for industrial electrical applications.",
 },
@@ -1672,7 +1670,7 @@ export const products: Product[] = [
   title: "PVC COUPLING 50MM",
   code: "EMT-167",
   category: "PVC Coupling",
-  image: "/products/product-167.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC COUPLING 50MM for industrial electrical applications.",
 },
@@ -1682,7 +1680,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR 20MM",
   code: "EMT-168",
   category: "PVC Adaptor",
-  image: "/products/product-168.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC ADAPTOR 20MM for industrial electrical applications.",
 },
@@ -1692,7 +1690,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR 25MM",
   code: "EMT-169",
   category: "PVC Adaptor",
-  image: "/products/product-169.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC ADAPTOR 25MM for industrial electrical applications.",
 },
@@ -1702,7 +1700,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR 32MM",
   code: "EMT-170",
   category: "PVC Adaptor",
-  image: "/products/product-170.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC ADAPTOR 32MM for industrial electrical applications.",
 },
@@ -1712,7 +1710,7 @@ export const products: Product[] = [
   title: "PVC ADAPTOR 50MM",
   code: "EMT-171",
   category: "PVC Adaptor",
-  image: "/products/product-171.jpg",
+  image: "/products/product-164.jpg",
   description:
     "High quality PVC ADAPTOR 50MM for industrial electrical applications.",
 },
@@ -1732,7 +1730,7 @@ export const products: Product[] = [
   title: "PVC COUPLING 25 MM WHITE",
   code: "EMT-173",
   category: "PVC Coupling",
-  image: "/products/product-173.jpg",
+  image: "/products/product-172.jpg",
   description:
     "High quality PVC COUPLING 25 MM WHITE for industrial electrical applications.",
 },
@@ -1752,7 +1750,7 @@ export const products: Product[] = [
   title: "PVC BEND 25 MM BLACK",
   code: "EMT-175",
   category: "PVC Bend",
-  image: "/products/product-175.jpg",
+  image: "/products/product-174.jpg",
   description:
     "High quality PVC BEND 25 MM BLACK for industrial electrical applications.",
 },
@@ -1762,7 +1760,7 @@ export const products: Product[] = [
   title: "PVC BEND 32 MM BLACK",
   code: "EMT-176",
   category: "PVC Bend",
-  image: "/products/product-176.jpg",
+  image: "/products/product-174.jpg",
   description:
     "High quality PVC BEND 32 MM BLACK for industrial electrical applications.",
 },
@@ -1772,7 +1770,7 @@ export const products: Product[] = [
   title: "PVC BEND 50 MM BLACK",
   code: "EMT-177",
   category: "PVC Bend",
-  image: "/products/product-177.jpg",
+  image: "/products/product-174.jpg",
   description:
     "High quality PVC BEND 50 MM BLACK for industrial electrical applications.",
 },
@@ -1812,7 +1810,7 @@ export const products: Product[] = [
   title: "LIQUID TIGHT ANGLE CONNECTOR 3/4''",
   code: "EMT-181",
   category: "Liquid Tight Connector",
-  image: "/products/product-181.jpg",
+  image: "/products/product-180.jpg",
   description:
     "High quality LIQUID TIGHT ANGLE CONNECTOR 3/4'' for industrial electrical applications.",
 },
@@ -1832,7 +1830,7 @@ export const products: Product[] = [
   title: "HOLE CLOSER 3/4''",
   code: "EMT-183",
   category: "Hole Closer",
-  image: "/products/product-183.jpg",
+  image: "/products/product-182.jpg",
   description:
     "High quality HOLE CLOSER 3/4'' for industrial electrical applications.",
 },
@@ -1842,7 +1840,7 @@ export const products: Product[] = [
   title: "HOLE CLOSER 1''",
   code: "EMT-184",
   category: "Hole Closer",
-  image: "/products/product-184.jpg",
+  image: "/products/product-182.jpg",
   description:
     "High quality HOLE CLOSER 1'' for industrial electrical applications.",
 },
@@ -1862,7 +1860,7 @@ export const products: Product[] = [
   title: "STEEL FLEXIBLE ANGLE CONNECTOR 3/4''",
   code: "EMT-186",
   category: "Flexible Connector",
-  image: "/products/product-186.jpg",
+  image: "/products/product-185.jpg",
   description:
     "High quality STEEL FLEXIBLE ANGLE CONNECTOR 3/4'' for industrial electrical applications.",
 },
@@ -1882,7 +1880,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 3/4''",
   code: "EMT-188",
   category: "Rigid Coupling",
-  image: "/products/product-188.jpg",
+  image: "/products/product-187.jpg",
   description:
     "High quality RIGID COUPLING 3/4'' for industrial electrical applications.",
 },
@@ -1892,7 +1890,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 1''",
   code: "EMT-189",
   category: "Rigid Coupling",
-  image: "/products/product-189.jpg",
+  image: "/products/product-187.jpg",
   description:
     "High quality RIGID COUPLING 1'' for industrial electrical applications.",
 },
@@ -1902,7 +1900,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 1-1/2''",
   code: "EMT-190",
   category: "Rigid Coupling",
-  image: "/products/product-190.jpg",
+  image: "/products/product-187.jpg",
   description:
     "High quality RIGID COUPLING 1-1/2'' for industrial electrical applications.",
 },
@@ -1912,7 +1910,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 2''",
   code: "EMT-191",
   category: "Rigid Coupling",
-  image: "/products/product-191.jpg",
+  image: "/products/product-187.jpg",
   description:
     "High quality RIGID COUPLING 2'' for industrial electrical applications.",
 },
@@ -1922,7 +1920,7 @@ export const products: Product[] = [
   title: "RIGID COUPLING 2-1/2''",
   code: "EMT-192",
   category: "Rigid Coupling",
-  image: "/products/product-192.jpg",
+  image: "/products/product-187.jpg",
   description:
     "High quality RIGID COUPLING 2-1/2'' for industrial electrical applications.",
 },
@@ -1942,7 +1940,7 @@ export const products: Product[] = [
   title: "EMT COMPRESSION CONNECTOR 1''",
   code: "EMT-194",
   category: "Compression Connector",
-  image: "/products/product-194.jpg",
+  image: "/products/product-193.jpg",
   description:
     "High quality EMT COMPRESSION CONNECTOR 1'' for industrial electrical applications.",
 },
@@ -1952,7 +1950,7 @@ export const products: Product[] = [
   title: "EMT COMPRESSION CONNECTOR 2''",
   code: "EMT-195",
   category: "Compression Connector",
-  image: "/products/product-195.jpg",
+  image: "/products/product-193.jpg",
   description:
     "High quality EMT COMPRESSION CONNECTOR 2'' for industrial electrical applications.",
 },
@@ -1972,7 +1970,7 @@ export const products: Product[] = [
   title: "EMT COMPRESSION COUPLING 1''",
   code: "EMT-197",
   category: "Compression Coupling",
-  image: "/products/product-197.jpg",
+  image: "/products/product-196.jpg",
   description:
     "High quality EMT COMPRESSION COUPLING 1'' for industrial electrical applications.",
 },
@@ -1982,7 +1980,7 @@ export const products: Product[] = [
   title: "EMT COMPRESSION COUPLING 2''",
   code: "EMT-198",
   category: "Compression Coupling",
-  image: "/products/product-198.jpg",
+  image: "/products/product-196.jpg",
   description:
     "High quality EMT COMPRESSION COUPLING 2'' for industrial electrical applications.",
 },
@@ -2002,7 +2000,7 @@ export const products: Product[] = [
   title: "ENLARGER 1/2'' - 1''",
   code: "EMT-200",
   category: "Enlarger",
-  image: "/products/product-200.jpg",
+  image: "/products/product-199.jpg",
   description:
     "High quality ENLARGER 1/2'' - 1'' for industrial electrical applications.",
 },
@@ -2012,7 +2010,7 @@ export const products: Product[] = [
   title: "ENLARGER 3/4'' - 1''",
   code: "EMT-201",
   category: "Enlarger",
-  image: "/products/product-201.jpg",
+  image: "/products/product-199.jpg",
   description:
     "High quality ENLARGER 3/4'' - 1'' for industrial electrical applications.",
 },
@@ -2032,7 +2030,7 @@ export const products: Product[] = [
   title: "EMT COVER 10X10-3/4\" HOLE",
   code: "EMT-203",
   category: "EMT Cover",
-  image: "/products/product-203.jpg",
+  image: "/products/product-202.jpg",
   description:
     "High quality EMT COVER 10X10-3/4\" HOLE for industrial electrical applications.",
 },
@@ -2042,7 +2040,7 @@ export const products: Product[] = [
   title: "EMT COVER 9X9-3/4\" HOLE",
   code: "EMT-204",
   category: "EMT Cover",
-  image: "/products/product-204.jpg",
+  image: "/products/product-202.jpg",
   description:
     "High quality EMT COVER 9X9-3/4\" HOLE for industrial electrical applications.",
 },
@@ -2052,7 +2050,7 @@ export const products: Product[] = [
   title: "EMT COVER 7X7 - 1/2'' HOLE",
   code: "EMT-205",
   category: "EMT Cover",
-  image: "/products/product-205.jpg",
+  image: "/products/product-202.jpg",
   description:
     "High quality EMT COVER 7X7 - 1/2'' HOLE for industrial electrical applications.",
 },
@@ -2062,7 +2060,7 @@ export const products: Product[] = [
   title: "EMT COVER 7X7 - 3/4'' HOLE",
   code: "EMT-206",
   category: "EMT Cover",
-  image: "/products/product-206.jpg",
+  image: "/products/product-202.jpg",
   description:
     "High quality EMT COVER 7X7 - 3/4'' HOLE for industrial electrical applications.",
 },
@@ -2082,7 +2080,7 @@ export const products: Product[] = [
   title: "PLASTIC GLAND M20",
   code: "EMT-208",
   category: "Plastic Gland",
-  image: "/products/product-208.jpg",
+  image: "/products/product-207.jpg",
   description:
     "High quality PLASTIC GLAND M20 for industrial electrical applications.",
 },
@@ -2092,7 +2090,7 @@ export const products: Product[] = [
   title: "PLASTIC GLAND M25",
   code: "EMT-209",
   category: "Plastic Gland",
-  image: "/products/product-209.jpg",
+  image: "/products/product-207.jpg",
   description:
     "High quality PLASTIC GLAND M25 for industrial electrical applications.",
 },
@@ -2102,7 +2100,7 @@ export const products: Product[] = [
   title: "PLASTIC GLAND M32",
   code: "EMT-210",
   category: "Plastic Gland",
-  image: "/products/product-210.jpg",
+  image: "/products/product-207.jpg",
   description:
     "High quality PLASTIC GLAND M32 for industrial electrical applications.",
 },
@@ -2122,7 +2120,7 @@ export const products: Product[] = [
   title: "INSULATOR 35MM",
   code: "EMT-212",
   category: "Insulator",
-  image: "/products/product-212.jpg",
+  image: "/products/product-211.jpg",
   description:
     "High quality INSULATOR 35MM for industrial electrical applications.",
 },
@@ -2132,7 +2130,7 @@ export const products: Product[] = [
   title: "INSULATOR 51MM",
   code: "EMT-213",
   category: "Insulator",
-  image: "/products/product-213.jpg",
+  image: "/products/product-211.jpg",
   description:
     "High quality INSULATOR 51MM for industrial electrical applications.",
 },
@@ -2152,7 +2150,7 @@ export const products: Product[] = [
   title: "STEEL CABLE TIE 200MM",
   code: "EMT-215",
   category: "Steel Cable Tie",
-  image: "/products/product-215.jpg",
+  image: "/products/product-214.jpg",
   description:
     "High quality STEEL CABLE TIE 200MM for industrial electrical applications.",
 },
@@ -2162,7 +2160,7 @@ export const products: Product[] = [
   title: "STEEL CABLE TIE 300MM",
   code: "EMT-216",
   category: "Steel Cable Tie",
-  image: "/products/product-216.jpg",
+  image: "/products/product-214.jpg",
   description:
     "High quality STEEL CABLE TIE 300MM for industrial electrical applications.",
 },
@@ -2172,7 +2170,7 @@ export const products: Product[] = [
   title: "STEEL CABLE TIE 500MM",
   code: "EMT-217",
   category: "Steel Cable Tie",
-  image: "/products/product-217.jpg",
+  image: "/products/product-214.jpg",
   description:
     "High quality STEEL CABLE TIE 500MM for industrial electrical applications.",
 },
@@ -2192,7 +2190,7 @@ export const products: Product[] = [
   title: "STEEL CABLE PVC COATED PSSCT 200X4.6 MM",
   code: "EMT-219",
   category: "Steel Cable Tie",
-  image: "/products/product-219.jpg",
+  image: "/products/product-218.jpg",
   description:
     "High quality STEEL CABLE PVC COATED PSSCT 200X4.6 MM for industrial electrical applications.",
 },
@@ -2202,7 +2200,7 @@ export const products: Product[] = [
   title: "STEEL CABLE PVC COATED PSSCT 300X4.6 MM",
   code: "EMT-220",
   category: "Steel Cable Tie",
-  image: "/products/product-220.jpg",
+  image: "/products/product-218.jpg",
   description:
     "High quality STEEL CABLE PVC COATED PSSCT 300X4.6 MM for industrial electrical applications.",
 },
@@ -2222,7 +2220,7 @@ export const products: Product[] = [
   title: "CABLE MARKER MS-100 MM BLACK",
   code: "EMT-222",
   category: "Cable Marker",
-  image: "/products/product-222.jpg",
+  image: "/products/product-221.jpg",
   description:
     "High quality CABLE MARKER MS-100 MM BLACK for industrial electrical applications.",
 },
@@ -2242,7 +2240,7 @@ export const products: Product[] = [
   title: "CABLE MARKER MS-100 MM WHITE",
   code: "EMT-224",
   category: "Cable Marker",
-  image: "/products/product-224.jpg",
+  image: "/products/product-223.jpg",
   description:
     "High quality CABLE MARKER MS-100 MM WHITE for industrial electrical applications.",
 },
@@ -2262,7 +2260,7 @@ export const products: Product[] = [
   title: "TIE MOUNT TM-30 MM",
   code: "EMT-226",
   category: "Tie Mount",
-  image: "/products/product-226.jpg",
+  image: "/products/product-225.jpg",
   description:
     "High quality TIE MOUNT TM-30 MM for industrial electrical applications.",
 },
@@ -2282,7 +2280,7 @@ export const products: Product[] = [
   title: "PLASTIC CONNECTOR PC-16 MM",
   code: "EMT-228",
   category: "Plastic Connector",
-  image: "/products/product-228.jpg",
+  image: "/products/product-227.jpg",
   description:
     "High quality PLASTIC CONNECTOR PC-16 MM for industrial electrical applications.",
 },
@@ -2292,7 +2290,7 @@ export const products: Product[] = [
   title: "PLASTIC CONNECTOR PC-25 MM",
   code: "EMT-229",
   category: "Plastic Connector",
-  image: "/products/product-229.jpg",
+  image: "/products/product-227.jpg",
   description:
     "High quality PLASTIC CONNECTOR PC-25 MM for industrial electrical applications.",
 },
@@ -2312,7 +2310,7 @@ export const products: Product[] = [
   title: "H type PLASTIC STRIP CONNECTOR 10MM WHITE HIGH QUALITY",
   code: "EMT-231",
   category: "Plastic Strip Connector",
-  image: "/products/product-231.jpg",
+  image: "/products/product-230.jpg",
   description:
     "High quality H type PLASTIC STRIP CONNECTOR 10MM WHITE HIGH QUALITY for industrial electrical applications.",
 },
@@ -2322,7 +2320,7 @@ export const products: Product[] = [
   title: "H type PLASTIC STRIP CONNECTOR 16MM WHITE HIGH QUALITY",
   code: "EMT-232",
   category: "Plastic Strip Connector",
-  image: "/products/product-232.jpg",
+  image: "/products/product-230.jpg",
   description:
     "High quality H type PLASTIC STRIP CONNECTOR 16MM WHITE HIGH QUALITY for industrial electrical applications.",
 },
@@ -2332,7 +2330,7 @@ export const products: Product[] = [
   title: "H type PLASTIC STRIP CONNECTOR 25MM WHITE HIGH QUALITY",
   code: "EMT-233",
   category: "Plastic Strip Connector",
-  image: "/products/product-233.jpg",
+  image: "/products/product-230.jpg",
   description:
     "High quality H type PLASTIC STRIP CONNECTOR 25MM WHITE HIGH QUALITY for industrial electrical applications.",
 },
@@ -2342,7 +2340,7 @@ export const products: Product[] = [
   title: "H type PLASTIC STRIP CONNECTOR 40MM BLACK",
   code: "EMT-234",
   category: "Plastic Strip Connector",
-  image: "/products/product-234.jpg",
+  image: "/products/product-230.jpg",
   description:
     "High quality H type PLASTIC STRIP CONNECTOR 40MM BLACK for industrial electrical applications.",
 },
@@ -2352,7 +2350,7 @@ export const products: Product[] = [
   title: "H type PLASTIC STRIP CONNECTOR 40MM BLACK HIGH QUALITY",
   code: "EMT-235",
   category: "Plastic Strip Connector",
-  image: "/products/product-235.jpg",
+  image: "/products/product-230.jpg",
   description:
     "High quality H type PLASTIC STRIP CONNECTOR 40MM BLACK HIGH QUALITY for industrial electrical applications.",
 },
@@ -2372,7 +2370,7 @@ export const products: Product[] = [
   title: "GROUP HOLDER UBE/D N",
   code: "EMT-237",
   category: "Group Holder",
-  image: "/products/product-237.jpg",
+  image: "/products/product-236.jpg",
   description:
     "High quality GROUP HOLDER UBE/D N for industrial electrical applications.",
 },
@@ -2422,7 +2420,7 @@ export const products: Product[] = [
   title: "WIRE CONNECTOR N103 (100PCS)",
   code: "EMT-242",
   category: "Wire Connector",
-  image: "/products/product-242.jpg",
+  image: "/products/product-241.jpg",
   description:
     "High quality WIRE CONNECTOR N103 (100PCS) for industrial electrical applications.",
 },
@@ -2432,7 +2430,7 @@ export const products: Product[] = [
   title: "WIRE CONNECTOR N104 (100PCS)",
   code: "EMT-243",
   category: "Wire Connector",
-  image: "/products/product-243.jpg",
+  image: "/products/product-241.jpg",
   description:
     "High quality WIRE CONNECTOR N104 (100PCS) for industrial electrical applications.",
 },
@@ -2442,7 +2440,7 @@ export const products: Product[] = [
   title: "WIRE CONNECTOR N102-2 (100PCS)",
   code: "EMT-244",
   category: "Wire Connector",
-  image: "/products/product-244.jpg",
+  image: "/products/product-241.jpg",
   description:
     "High quality WIRE CONNECTOR N102-2 (100PCS) for industrial electrical applications.",
 },
@@ -2452,7 +2450,7 @@ export const products: Product[] = [
   title: "WIRE CONNECTOR N103-2 (100PCS)",
   code: "EMT-245",
   category: "Wire Connector",
-  image: "/products/product-245.jpg",
+  image: "/products/product-241.jpg",
   description:
     "High quality WIRE CONNECTOR N103-2 (100PCS) for industrial electrical applications.",
 },
@@ -2462,7 +2460,7 @@ export const products: Product[] = [
   title: "WIRE CONNECTOR N103-3 (100PCS)",
   code: "EMT-246",
   category: "Wire Connector",
-  image: "/products/product-246.jpg",
+  image: "/products/product-241.jpg",
   description:
     "High quality WIRE CONNECTOR N103-3 (100PCS) for industrial electrical applications.",
 },
@@ -2482,7 +2480,7 @@ export const products: Product[] = [
   title: "WIRE NUT 7.4 MM BLUE S-P2 [Bag 100pcs]",
   code: "EMT-248",
   category: "Wire Nut",
-  image: "/products/product-248.jpg",
+  image: "/products/product-247.jpg",
   description:
     "High quality WIRE NUT 7.4 MM BLUE S-P2 [Bag 100pcs] for industrial electrical applications.",
 },
@@ -2492,7 +2490,7 @@ export const products: Product[] = [
   title: "WIRE NUT 9.9 MM ORANGE S-P3 [Bag 100pcs]",
   code: "EMT-249",
   category: "Wire Nut",
-  image: "/products/product-249.jpg",
+  image: "/products/product-247.jpg",
   description:
     "High quality WIRE NUT 9.9 MM ORANGE S-P3 [Bag 100pcs] for industrial electrical applications.",
 },
@@ -2502,7 +2500,7 @@ export const products: Product[] = [
   title: "WIRE NUT 11 MM YELLOW S-P4 [Bag 100pcs]",
   code: "EMT-250",
   category: "Wire Nut",
-  image: "/products/product-250.jpg",
+  image: "/products/product-247.jpg",
   description:
     "High quality WIRE NUT 11 MM YELLOW S-P4 [Bag 100pcs] for industrial electrical applications.",
 },
@@ -2512,7 +2510,7 @@ export const products: Product[] = [
   title: "WIRE NUT 10.5 MM GREY S-P15 [Bag 100pcs]",
   code: "EMT-251",
   category: "Wire Nut",
-  image: "/products/product-251.jpg",
+  image: "/products/product-247.jpg",
   description:
     "High quality WIRE NUT 10.5 MM GREY S-P15 [Bag 100pcs] for industrial electrical applications.",
 },
@@ -2522,7 +2520,7 @@ export const products: Product[] = [
   title: "WIRE NUT 12.8 MM BLUE S-P17 [Bag 100pcs]",
   code: "EMT-252",
   category: "Wire Nut",
-  image: "/products/product-252.jpg",
+  image: "/products/product-247.jpg",
   description:
     "High quality WIRE NUT 12.8 MM BLUE S-P17 [Bag 100pcs] for industrial electrical applications.",
 },
@@ -2542,7 +2540,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-1 MIX (0-9)",
   code: "EMT-254",
   category: "Cable Marker",
-  image: "/products/product-254.jpg",
+  image: "/products/product-253.jpg",
   description:
     "High quality CABLE MARKER ECA-1 MIX (0-9) for industrial electrical applications.",
 },
@@ -2552,7 +2550,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-2 MIX (0-9)",
   code: "EMT-255",
   category: "Cable Marker",
-  image: "/products/product-255.jpg",
+  image: "/products/product-253.jpg",
   description:
     "High quality CABLE MARKER ECA-2 MIX (0-9) for industrial electrical applications.",
 },
@@ -2562,7 +2560,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-3 MIX (0-9)",
   code: "EMT-256",
   category: "Cable Marker",
-  image: "/products/product-256.jpg",
+  image: "/products/product-253.jpg",
   description:
     "High quality CABLE MARKER ECA-3 MIX (0-9) for industrial electrical applications.",
 },
@@ -2582,7 +2580,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-1 MIX (A-Z)",
   code: "EMT-258",
   category: "Cable Marker",
-  image: "/products/product-258.jpg",
+  image: "/products/product-257.jpg",
   description:
     "High quality CABLE MARKER ECA-1 MIX (A-Z) for industrial electrical applications.",
 },
@@ -2592,7 +2590,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-2 MIX (A-Z)",
   code: "EMT-259",
   category: "Cable Marker",
-  image: "/products/product-259.jpg",
+  image: "/products/product-257.jpg",
   description:
     "High quality CABLE MARKER ECA-2 MIX (A-Z) for industrial electrical applications.",
 },
@@ -2602,7 +2600,7 @@ export const products: Product[] = [
   title: "CABLE MARKER ECA-3 MIX (A-Z)",
   code: "EMT-260",
   category: "Cable Marker",
-  image: "/products/product-260.jpg",
+  image: "/products/product-257.jpg",
   description:
     "High quality CABLE MARKER ECA-3 MIX (A-Z) for industrial electrical applications.",
 },
@@ -2622,7 +2620,7 @@ export const products: Product[] = [
   title: "SPIRAL - 6MM",
   code: "EMT-262",
   category: "Spiral",
-  image: "/products/product-262.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 6MM for industrial electrical applications.",
 },
@@ -2632,7 +2630,7 @@ export const products: Product[] = [
   title: "SPIRAL - 8MM",
   code: "EMT-263",
   category: "Spiral",
-  image: "/products/product-263.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 8MM for industrial electrical applications.",
 },
@@ -2642,7 +2640,7 @@ export const products: Product[] = [
   title: "SPIRAL - 10MM",
   code: "EMT-264",
   category: "Spiral",
-  image: "/products/product-264.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 10MM for industrial electrical applications.",
 },
@@ -2652,7 +2650,7 @@ export const products: Product[] = [
   title: "SPIRAL - 12MM",
   code: "EMT-265",
   category: "Spiral",
-  image: "/products/product-265.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 12MM for industrial electrical applications.",
 },
@@ -2662,7 +2660,7 @@ export const products: Product[] = [
   title: "SPIRAL - 15MM",
   code: "EMT-266",
   category: "Spiral",
-  image: "/products/product-266.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 15MM for industrial electrical applications.",
 },
@@ -2672,7 +2670,7 @@ export const products: Product[] = [
   title: "SPIRAL - 19MM",
   code: "EMT-267",
   category: "Spiral",
-  image: "/products/product-267.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 19MM for industrial electrical applications.",
 },
@@ -2682,7 +2680,7 @@ export const products: Product[] = [
   title: "SPIRAL - 24MM",
   code: "EMT-268",
   category: "Spiral",
-  image: "/products/product-268.jpg",
+  image: "/products/product-261.jpg",
   description:
     "High quality SPIRAL - 24MM for industrial electrical applications.",
 },
@@ -2732,7 +2730,7 @@ export const products: Product[] = [
   title: "BOOT LUGS CRIMPING TOOLS WMC10 16-6",
   code: "EMT-273",
   category: "Crimping Tool",
-  image: "/products/product-273.jpg",
+  image: "/products/product-272.jpg",
   description:
     "High quality BOOT LUGS CRIMPING TOOLS WMC10 16-6 for industrial electrical applications.",
 },
@@ -2742,7 +2740,7 @@ export const products: Product[] = [
   title: "BOOT LUGS CRIMPING TOOLS VSC9 10-6A HIGH QUALITY",
   code: "EMT-274",
   category: "Crimping Tool",
-  image: "/products/product-274.jpg",
+  image: "/products/product-272.jpg",
   description:
     "High quality BOOT LUGS CRIMPING TOOLS VSC9 10-6A HIGH QUALITY for industrial electrical applications.",
 },
@@ -2822,7 +2820,7 @@ export const products: Product[] = [
   title: "STEEL FLOOR BOX 4 SOCKET TWO FOR ELECTRIC TWO FOR DATA",
   code: "EMT-282",
   category: "Floor Box",
-  image: "/products/product-282.jpg",
+  image: "/products/product-281.jpg",
   description:
     "High quality STEEL FLOOR BOX 4 SOCKET TWO FOR ELECTRIC TWO FOR DATA for industrial electrical applications.",
 },
@@ -2842,7 +2840,7 @@ export const products: Product[] = [
   title: "DIN RAIL 1.0 MM",
   code: "EMT-284",
   category: "DIN Rail",
-  image: "/products/product-284.jpg",
+  image: "/products/product-283.jpg",
   description:
     "High quality DIN RAIL 1.0 MM for industrial electrical applications.",
 },
@@ -2862,7 +2860,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 6 MM - 100 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-286",
   category: "Shrink Tube",
-  image: "/products/product-286.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 6 MM - 100 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2872,7 +2870,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 10 MM - 100 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-287",
   category: "Shrink Tube",
-  image: "/products/product-287.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 10 MM - 100 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2882,7 +2880,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 12 MM - 100 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-288",
   category: "Shrink Tube",
-  image: "/products/product-288.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 12 MM - 100 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2892,7 +2890,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 16 MM - 100 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-289",
   category: "Shrink Tube",
-  image: "/products/product-289.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 16 MM - 100 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2902,7 +2900,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 20 MM - 100 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-290",
   category: "Shrink Tube",
-  image: "/products/product-290.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 20 MM - 100 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2912,7 +2910,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 25 MM - 50 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-291",
   category: "Shrink Tube",
-  image: "/products/product-291.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 25 MM - 50 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2922,7 +2920,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 30 MM - 50 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-292",
   category: "Shrink Tube",
-  image: "/products/product-292.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 30 MM - 50 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2932,7 +2930,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 40 MM - 50 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-293",
   category: "Shrink Tube",
-  image: "/products/product-293.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 40 MM - 50 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2942,7 +2940,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 50 MM - 25 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-294",
   category: "Shrink Tube",
-  image: "/products/product-294.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 50 MM - 25 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2952,7 +2950,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 70 MM - 25 MTR/ROLL (RD/BLK/BL/YLW)",
   code: "EMT-295",
   category: "Shrink Tube",
-  image: "/products/product-295.jpg",
+  image: "/products/product-285.jpg",
   description:
     "High quality SHRINK TUBE 70 MM - 25 MTR/ROLL (RD/BLK/BL/YLW) for industrial electrical applications.",
 },
@@ -2972,7 +2970,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 6 MM - 100 MTR/ROLL Y/G",
   code: "EMT-297",
   category: "Shrink Tube",
-  image: "/products/product-297.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 6 MM - 100 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -2982,7 +2980,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 10 MM - 100 MTR/ROLL Y/G",
   code: "EMT-298",
   category: "Shrink Tube",
-  image: "/products/product-298.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 10 MM - 100 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -2992,7 +2990,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 12 MM - 100 MTR/ROLL Y/G",
   code: "EMT-299",
   category: "Shrink Tube",
-  image: "/products/product-299.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 12 MM - 100 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3002,7 +3000,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 16 MM - 100 MTR/ROLL Y/G",
   code: "EMT-300",
   category: "Shrink Tube",
-  image: "/products/product-300.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 16 MM - 100 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3011,7 +3009,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 20 MM - 100 MTR/ROLL Y/G",
   code: "EMT-301",
   category: "Shrink Tube",
-  image: "/products/product-301.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 20 MM - 100 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3021,7 +3019,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 25 MM - 50 MTR/ROLL Y/G",
   code: "EMT-302",
   category: "Shrink Tube",
-  image: "/products/product-302.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 25 MM - 50 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3031,7 +3029,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 30 MM - 50 MTR/ROLL Y/G",
   code: "EMT-303",
   category: "Shrink Tube",
-  image: "/products/product-303.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 30 MM - 50 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3041,7 +3039,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 40 MM - 50 MTR/ROLL Y/G",
   code: "EMT-304",
   category: "Shrink Tube",
-  image: "/products/product-304.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 40 MM - 50 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3051,7 +3049,7 @@ export const products: Product[] = [
   title: "SHRINK TUBE 50 MM - 25 MTR/ROLL Y/G",
   code: "EMT-305",
   category: "Shrink Tube",
-  image: "/products/product-305.jpg",
+  image: "/products/product-296.jpg",
   description:
     "High quality SHRINK TUBE 50 MM - 25 MTR/ROLL Y/G for industrial electrical applications.",
 },
@@ -3071,7 +3069,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 3.5 MM RED 200 MTR",
   code: "EMT-307",
   category: "Marking Tube",
-  image: "/products/product-307.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 3.5 MM RED 200 MTR for industrial electrical applications.",
 },
@@ -3081,7 +3079,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 3.5 MM YELLOW 200 MTR",
   code: "EMT-308",
   category: "Marking Tube",
-  image: "/products/product-308.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 3.5 MM YELLOW 200 MTR for industrial electrical applications.",
 },
@@ -3091,7 +3089,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4 MM WHITE 200 MTR",
   code: "EMT-309",
   category: "Marking Tube",
-  image: "/products/product-309.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4 MM WHITE 200 MTR for industrial electrical applications.",
 },
@@ -3101,7 +3099,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4 MM RED 200 MTR",
   code: "EMT-310",
   category: "Marking Tube",
-  image: "/products/product-310.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4 MM RED 200 MTR for industrial electrical applications.",
 },
@@ -3111,7 +3109,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4 MM YELLOW 200 MTR",
   code: "EMT-311",
   category: "Marking Tube",
-  image: "/products/product-311.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4 MM YELLOW 200 MTR for industrial electrical applications.",
 },
@@ -3121,7 +3119,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4.5 MM WHITE 200 MTR",
   code: "EMT-312",
   category: "Marking Tube",
-  image: "/products/product-312.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4.5 MM WHITE 200 MTR for industrial electrical applications.",
 },
@@ -3131,7 +3129,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4.5 MM RED 200 MTR",
   code: "EMT-313",
   category: "Marking Tube",
-  image: "/products/product-313.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4.5 MM RED 200 MTR for industrial electrical applications.",
 },
@@ -3141,7 +3139,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 4.5 MM YELLOW 200 MTR",
   code: "EMT-314",
   category: "Marking Tube",
-  image: "/products/product-314.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 4.5 MM YELLOW 200 MTR for industrial electrical applications.",
 },
@@ -3151,7 +3149,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 5.5 MM WHITE 100 MTR",
   code: "EMT-315",
   category: "Marking Tube",
-  image: "/products/product-315.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 5.5 MM WHITE 100 MTR for industrial electrical applications.",
 },
@@ -3161,7 +3159,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 5.5 MM RED 100 MTR",
   code: "EMT-316",
   category: "Marking Tube",
-  image: "/products/product-316.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 5.5 MM RED 100 MTR for industrial electrical applications.",
 },
@@ -3171,7 +3169,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 5.5 MM YELLOW 100 MTR",
   code: "EMT-317",
   category: "Marking Tube",
-  image: "/products/product-317.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 5.5 MM YELLOW 100 MTR for industrial electrical applications.",
 },
@@ -3181,7 +3179,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 6.2 MM WHITE 100 MTR",
   code: "EMT-318",
   category: "Marking Tube",
-  image: "/products/product-318.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 6.2 MM WHITE 100 MTR for industrial electrical applications.",
 },
@@ -3191,7 +3189,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 6.2 MM RED 100 MTR",
   code: "EMT-319",
   category: "Marking Tube",
-  image: "/products/product-319.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 6.2 MM RED 100 MTR for industrial electrical applications.",
 },
@@ -3201,7 +3199,7 @@ export const products: Product[] = [
   title: "FERROLING MARKING TUBE 6.2 MM YELLOW 100 MTR",
   code: "EMT-320",
   category: "Marking Tube",
-  image: "/products/product-320.jpg",
+  image: "/products/product-306.jpg",
   description:
     "High quality FERROLING MARKING TUBE 6.2 MM YELLOW 100 MTR for industrial electrical applications.",
 },
@@ -4900,7 +4898,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 16 MM",
   code: "EMT-490",
   category: "Copper Ferrule",
-  image: "/products/product-490.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 16 MM for industrial electrical applications.",
 },
@@ -4910,7 +4908,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 25 MM",
   code: "EMT-491",
   category: "Copper Ferrule",
-  image: "/products/product-491.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 25 MM for industrial electrical applications.",
 },
@@ -4920,7 +4918,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 35 MM",
   code: "EMT-492",
   category: "Copper Ferrule",
-  image: "/products/product-492.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 35 MM for industrial electrical applications.",
 },
@@ -4930,7 +4928,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 50 MM",
   code: "EMT-493",
   category: "Copper Ferrule",
-  image: "/products/product-493.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 50 MM for industrial electrical applications.",
 },
@@ -4940,7 +4938,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 70 MM",
   code: "EMT-494",
   category: "Copper Ferrule",
-  image: "/products/product-494.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 70 MM for industrial electrical applications.",
 },
@@ -4950,7 +4948,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 95 MM",
   code: "EMT-495",
   category: "Copper Ferrule",
-  image: "/products/product-495.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 95 MM for industrial electrical applications.",
 },
@@ -4960,7 +4958,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 120 MM",
   code: "EMT-496",
   category: "Copper Ferrule",
-  image: "/products/product-496.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 120 MM for industrial electrical applications.",
 },
@@ -4970,7 +4968,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 150 MM",
   code: "EMT-497",
   category: "Copper Ferrule",
-  image: "/products/product-497.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 150 MM for industrial electrical applications.",
 },
@@ -4980,7 +4978,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 185 MM",
   code: "EMT-498",
   category: "Copper Ferrule",
-  image: "/products/product-498.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 185 MM for industrial electrical applications.",
 },
@@ -4990,7 +4988,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 240 MM",
   code: "EMT-499",
   category: "Copper Ferrule",
-  image: "/products/product-499.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 240 MM for industrial electrical applications.",
 },
@@ -5000,7 +4998,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 300 MM",
   code: "EMT-500",
   category: "Copper Ferrule",
-  image: "/products/product-500.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 300 MM for industrial electrical applications.",
 },
@@ -5009,7 +5007,7 @@ export const products: Product[] = [
   title: "COPPER FERRULE 400 MM",
   code: "EMT-501",
   category: "Copper Ferrule",
-  image: "/products/product-501.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality COPPER FERRULE 400 MM for industrial electrical applications.",
 },
@@ -5019,7 +5017,7 @@ export const products: Product[] = [
   title: "DOUBLE FERRULE 0.75 MM",
   code: "EMT-502",
   category: "Double Ferrule",
-  image: "/products/product-502.jpg",
+  image: "/products/product-489.jpg",
   description:
     "High quality DOUBLE FERRULE 0.75 MM for industrial electrical applications.",
 },
@@ -5039,7 +5037,7 @@ export const products: Product[] = [
   title: "DOUBLE FERRULE 2.5 MM",
   code: "EMT-504",
   category: "Double Ferrule",
-  image: "/products/product-504.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality DOUBLE FERRULE 2.5 MM for industrial electrical applications.",
 },
@@ -5049,7 +5047,7 @@ export const products: Product[] = [
   title: "DOUBLE FERRULE 4 MM",
   code: "EMT-505",
   category: "Double Ferrule",
-  image: "/products/product-505.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality DOUBLE FERRULE 4 MM for industrial electrical applications.",
 },
@@ -5059,7 +5057,7 @@ export const products: Product[] = [
   title: "DOUBLE FERRULE 6 MM",
   code: "EMT-506",
   category: "Double Ferrule",
-  image: "/products/product-506.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality DOUBLE FERRULE 6 MM for industrial electrical applications.",
 },
@@ -5069,7 +5067,7 @@ export const products: Product[] = [
   title: "DOUBLE FERRULE 10 MM",
   code: "EMT-507",
   category: "Double Ferrule",
-  image: "/products/product-507.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality DOUBLE FERRULE 10 MM for industrial electrical applications.",
 },
@@ -5079,7 +5077,7 @@ export const products: Product[] = [
   title: "INSULATED PIN TERMINAL 0.5-1.5 MM",
   code: "EMT-508",
   category: "Pin Terminal",
-  image: "/products/product-508.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED PIN TERMINAL 0.5-1.5 MM for industrial electrical applications.",
 },
@@ -5089,7 +5087,7 @@ export const products: Product[] = [
   title: "INSULATED PIN TERMINAL 1.5-2.5 MM",
   code: "EMT-509",
   category: "Pin Terminal",
-  image: "/products/product-509.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED PIN TERMINAL 1.5-2.5 MM for industrial electrical applications.",
 },
@@ -5099,7 +5097,7 @@ export const products: Product[] = [
   title: "INSULATED PIN TERMINAL 4-6 MM",
   code: "EMT-510",
   category: "Pin Terminal",
-  image: "/products/product-510.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED PIN TERMINAL 4-6 MM for industrial electrical applications.",
 },
@@ -5109,7 +5107,7 @@ export const products: Product[] = [
   title: "INSULATED FORK TERMINAL 0.5-1.5 MM",
   code: "EMT-511",
   category: "Fork Terminal",
-  image: "/products/product-511.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED FORK TERMINAL 0.5-1.5 MM for industrial electrical applications.",
 },
@@ -5119,7 +5117,7 @@ export const products: Product[] = [
   title: "INSULATED FORK TERMINAL 1.5-2.5 MM",
   code: "EMT-512",
   category: "Fork Terminal",
-  image: "/products/product-512.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED FORK TERMINAL 1.5-2.5 MM for industrial electrical applications.",
 },
@@ -5129,7 +5127,7 @@ export const products: Product[] = [
   title: "INSULATED FORK TERMINAL 4-6 MM",
   code: "EMT-513",
   category: "Fork Terminal",
-  image: "/products/product-513.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED FORK TERMINAL 4-6 MM for industrial electrical applications.",
 },
@@ -5139,7 +5137,7 @@ export const products: Product[] = [
   title: "INSULATED RING TERMINAL 0.5-1.5 MM",
   code: "EMT-514",
   category: "Ring Terminal",
-  image: "/products/product-514.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED RING TERMINAL 0.5-1.5 MM for industrial electrical applications.",
 },
@@ -5149,7 +5147,7 @@ export const products: Product[] = [
   title: "INSULATED RING TERMINAL 1.5-2.5 MM",
   code: "EMT-515",
   category: "Ring Terminal",
-  image: "/products/product-515.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED RING TERMINAL 1.5-2.5 MM for industrial electrical applications.",
 },
@@ -5159,7 +5157,7 @@ export const products: Product[] = [
   title: "INSULATED RING TERMINAL 4-6 MM",
   code: "EMT-516",
   category: "Ring Terminal",
-  image: "/products/product-516.jpg",
+  image: "/products/product-503.jpg",
   description:
     "High quality INSULATED RING TERMINAL 4-6 MM for industrial electrical applications.",
 },
@@ -5179,7 +5177,7 @@ export const products: Product[] = [
   title: "INSULATED FEMALE DISCONNECTOR 0.5-1.5 MM",
   code: "EMT-518",
   category: "Disconnect Terminal",
-  image: "/products/product-518.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality INSULATED FEMALE DISCONNECTOR 0.5-1.5 MM for industrial electrical applications.",
 },
@@ -5189,7 +5187,7 @@ export const products: Product[] = [
   title: "INSULATED MALE DISCONNECTOR 1.5-2.5 MM",
   code: "EMT-519",
   category: "Disconnect Terminal",
-  image: "/products/product-519.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality INSULATED MALE DISCONNECTOR 1.5-2.5 MM for industrial electrical applications.",
 },
@@ -5199,7 +5197,7 @@ export const products: Product[] = [
   title: "INSULATED FEMALE DISCONNECTOR 1.5-2.5 MM",
   code: "EMT-520",
   category: "Disconnect Terminal",
-  image: "/products/product-520.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality INSULATED FEMALE DISCONNECTOR 1.5-2.5 MM for industrial electrical applications.",
 },
@@ -5209,7 +5207,7 @@ export const products: Product[] = [
   title: "INSULATED MALE DISCONNECTOR 4-6 MM",
   code: "EMT-521",
   category: "Disconnect Terminal",
-  image: "/products/product-521.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality INSULATED MALE DISCONNECTOR 4-6 MM for industrial electrical applications.",
 },
@@ -5219,7 +5217,7 @@ export const products: Product[] = [
   title: "INSULATED FEMALE DISCONNECTOR 4-6 MM",
   code: "EMT-522",
   category: "Disconnect Terminal",
-  image: "/products/product-522.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality INSULATED FEMALE DISCONNECTOR 4-6 MM for industrial electrical applications.",
 },
@@ -5229,7 +5227,7 @@ export const products: Product[] = [
   title: "NON INSULATED RING TERMINAL 1.5 MM",
   code: "EMT-523",
   category: "Ring Terminal",
-  image: "/products/product-523.jpg",
+  image: "/products/product-517.jpg",
   description:
     "High quality NON INSULATED RING TERMINAL 1.5 MM for industrial electrical applications.",
 },
@@ -5249,7 +5247,7 @@ export const products: Product[] = [
   title: "NON INSULATED RING TERMINAL 4 MM",
   code: "EMT-525",
   category: "Ring Terminal",
-  image: "/products/product-525.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality NON INSULATED RING TERMINAL 4 MM for industrial electrical applications.",
 },
@@ -5259,7 +5257,7 @@ export const products: Product[] = [
   title: "NON INSULATED RING TERMINAL 6 MM",
   code: "EMT-526",
   category: "Ring Terminal",
-  image: "/products/product-526.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality NON INSULATED RING TERMINAL 6 MM for industrial electrical applications.",
 },
@@ -5269,7 +5267,7 @@ export const products: Product[] = [
   title: "NON INSULATED RING TERMINAL 10 MM",
   code: "EMT-527",
   category: "Ring Terminal",
-  image: "/products/product-527.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality NON INSULATED RING TERMINAL 10 MM for industrial electrical applications.",
 },
@@ -5279,7 +5277,7 @@ export const products: Product[] = [
   title: "CABLE TIE 100X2.5 MM WHITE",
   code: "EMT-528",
   category: "Cable Tie",
-  image: "/products/product-528.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality CABLE TIE 100X2.5 MM WHITE for industrial electrical applications.",
 },
@@ -5289,7 +5287,7 @@ export const products: Product[] = [
   title: "CABLE TIE 150X3.6 MM WHITE",
   code: "EMT-529",
   category: "Cable Tie",
-  image: "/products/product-529.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality CABLE TIE 150X3.6 MM WHITE for industrial electrical applications.",
 },
@@ -5299,7 +5297,7 @@ export const products: Product[] = [
   title: "CABLE TIE 200X3.6 MM WHITE",
   code: "EMT-530",
   category: "Cable Tie",
-  image: "/products/product-530.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality CABLE TIE 200X3.6 MM WHITE for industrial electrical applications.",
 },
@@ -5309,7 +5307,7 @@ export const products: Product[] = [
   title: "CABLE TIE 250X3.6 MM WHITE",
   code: "EMT-531",
   category: "Cable Tie",
-  image: "/products/product-531.jpg",
+  image: "/products/product-524.jpg",
   description:
     "High quality CABLE TIE 250X3.6 MM WHITE for industrial electrical applications.",
 },
@@ -5329,7 +5327,7 @@ export const products: Product[] = [
   title: "CABLE TIE 370X4.8 MM WHITE",
   code: "EMT-533",
   category: "Cable Tie",
-  image: "/products/product-533.jpg",
+  image: "/products/product-532.jpg",
   description:
     "High quality CABLE TIE 370X4.8 MM WHITE for industrial electrical applications.",
 },
@@ -5339,7 +5337,7 @@ export const products: Product[] = [
   title: "CABLE TIE 450X4.8 MM WHITE",
   code: "EMT-534",
   category: "Cable Tie",
-  image: "/products/product-534.jpg",
+  image: "/products/product-532.jpg",
   description:
     "High quality CABLE TIE 450X4.8 MM WHITE for industrial electrical applications.",
 },
@@ -5359,7 +5357,7 @@ export const products: Product[] = [
   title: "CABLE TIE 680X8 MM WHITE",
   code: "EMT-536",
   category: "Cable Tie",
-  image: "/products/product-536.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality CABLE TIE 680X8 MM WHITE for industrial electrical applications.",
 },
@@ -5369,7 +5367,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 100X2.5 MM",
   code: "EMT-537",
   category: "Cable Tie",
-  image: "/products/product-537.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 100X2.5 MM for industrial electrical applications.",
 },
@@ -5379,7 +5377,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 150X3.6 MM",
   code: "EMT-538",
   category: "Cable Tie",
-  image: "/products/product-538.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 150X3.6 MM for industrial electrical applications.",
 },
@@ -5389,7 +5387,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 200X3.6 MM",
   code: "EMT-539",
   category: "Cable Tie",
-  image: "/products/product-539.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 200X3.6 MM for industrial electrical applications.",
 },
@@ -5399,7 +5397,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 250X3.6 MM",
   code: "EMT-540",
   category: "Cable Tie",
-  image: "/products/product-540.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 250X3.6 MM for industrial electrical applications.",
 },
@@ -5409,7 +5407,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 300X3.6 MM",
   code: "EMT-541",
   category: "Cable Tie",
-  image: "/products/product-541.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 300X3.6 MM for industrial electrical applications.",
 },
@@ -5419,7 +5417,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 370X4.8 MM",
   code: "EMT-542",
   category: "Cable Tie",
-  image: "/products/product-542.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 370X4.8 MM for industrial electrical applications.",
 },
@@ -5429,7 +5427,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 450X4.8 MM",
   code: "EMT-543",
   category: "Cable Tie",
-  image: "/products/product-543.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 450X4.8 MM for industrial electrical applications.",
 },
@@ -5439,7 +5437,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 530X4.8 MM",
   code: "EMT-544",
   category: "Cable Tie",
-  image: "/products/product-544.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 530X4.8 MM for industrial electrical applications.",
 },
@@ -5449,7 +5447,7 @@ export const products: Product[] = [
   title: "BLACK CABLE TIE 680X8 MM",
   code: "EMT-545",
   category: "Cable Tie",
-  image: "/products/product-545.jpg",
+  image: "/products/product-535.jpg",
   description:
     "High quality BLACK CABLE TIE 680X8 MM for industrial electrical applications.",
 },
@@ -5499,7 +5497,7 @@ export const products: Product[] = [
   title: "SPIRAL WRAPPING BAND 10 MM",
   code: "EMT-550",
   category: "Spiral Wrapping",
-  image: "/products/product-550.jpg",
+  image: "/products/product-549.jpg",
   description:
     "High quality SPIRAL WRAPPING BAND 10 MM for industrial electrical applications.",
 },
@@ -5519,7 +5517,7 @@ export const products: Product[] = [
   title: "SPIRAL WRAPPING BAND 15 MM",
   code: "EMT-552",
   category: "Spiral Wrapping",
-  image: "/products/product-552.jpg",
+  image: "/products/product-551.jpg",
   description:
     "High quality SPIRAL WRAPPING BAND 15 MM for industrial electrical applications.",
 },
@@ -5529,7 +5527,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 25X25 MM",
   code: "EMT-553",
   category: "Wiring Duct",
-  image: "/products/product-553.jpg",
+  image: "/products/product-551.jpg",
   description:
     "High quality PVC WIRING DUCT 25X25 MM for industrial electrical applications.",
 },
@@ -5549,7 +5547,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 40X40 MM",
   code: "EMT-555",
   category: "Wiring Duct",
-  image: "/products/product-555.jpg",
+  image: "/products/product-554.jpg",
   description:
     "High quality PVC WIRING DUCT 40X40 MM for industrial electrical applications.",
 },
@@ -5569,7 +5567,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 60X60 MM",
   code: "EMT-557",
   category: "Wiring Duct",
-  image: "/products/product-557.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC WIRING DUCT 60X60 MM for industrial electrical applications.",
 },
@@ -5579,7 +5577,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 60X80 MM",
   code: "EMT-558",
   category: "Wiring Duct",
-  image: "/products/product-558.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC WIRING DUCT 60X80 MM for industrial electrical applications.",
 },
@@ -5589,7 +5587,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 80X80 MM",
   code: "EMT-559",
   category: "Wiring Duct",
-  image: "/products/product-559.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC WIRING DUCT 80X80 MM for industrial electrical applications.",
 },
@@ -5599,7 +5597,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 80X100 MM",
   code: "EMT-560",
   category: "Wiring Duct",
-  image: "/products/product-560.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC WIRING DUCT 80X100 MM for industrial electrical applications.",
 },
@@ -5609,7 +5607,7 @@ export const products: Product[] = [
   title: "PVC WIRING DUCT 100X100 MM",
   code: "EMT-561",
   category: "Wiring Duct",
-  image: "/products/product-561.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC WIRING DUCT 100X100 MM for industrial electrical applications.",
 },
@@ -5619,7 +5617,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT 16 MM",
   code: "EMT-562",
   category: "Flexible Conduit",
-  image: "/products/product-562.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT 16 MM for industrial electrical applications.",
 },
@@ -5629,7 +5627,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT 20 MM",
   code: "EMT-563",
   category: "Flexible Conduit",
-  image: "/products/product-563.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT 20 MM for industrial electrical applications.",
 },
@@ -5639,7 +5637,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT 25 MM",
   code: "EMT-564",
   category: "Flexible Conduit",
-  image: "/products/product-564.jpg",
+  image: "/products/product-556.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT 25 MM for industrial electrical applications.",
 },
@@ -5659,7 +5657,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT 40 MM",
   code: "EMT-566",
   category: "Flexible Conduit",
-  image: "/products/product-566.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT 40 MM for industrial electrical applications.",
 },
@@ -5669,7 +5667,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT 50 MM",
   code: "EMT-567",
   category: "Flexible Conduit",
-  image: "/products/product-567.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT 50 MM for industrial electrical applications.",
 },
@@ -5679,7 +5677,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 16 MM",
   code: "EMT-568",
   category: "Flexible Conduit Connector",
-  image: "/products/product-568.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 16 MM for industrial electrical applications.",
 },
@@ -5689,7 +5687,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 20 MM",
   code: "EMT-569",
   category: "Flexible Conduit Connector",
-  image: "/products/product-569.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 20 MM for industrial electrical applications.",
 },
@@ -5699,7 +5697,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 25 MM",
   code: "EMT-570",
   category: "Flexible Conduit Connector",
-  image: "/products/product-570.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 25 MM for industrial electrical applications.",
 },
@@ -5709,7 +5707,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 32 MM",
   code: "EMT-571",
   category: "Flexible Conduit Connector",
-  image: "/products/product-571.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 32 MM for industrial electrical applications.",
 },
@@ -5719,7 +5717,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 40 MM",
   code: "EMT-572",
   category: "Flexible Conduit Connector",
-  image: "/products/product-572.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 40 MM for industrial electrical applications.",
 },
@@ -5729,7 +5727,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT CONNECTOR 50 MM",
   code: "EMT-573",
   category: "Flexible Conduit Connector",
-  image: "/products/product-573.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT CONNECTOR 50 MM for industrial electrical applications.",
 },
@@ -5739,7 +5737,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT ADAPTOR 16 MM",
   code: "EMT-574",
   category: "Flexible Conduit Adaptor",
-  image: "/products/product-574.jpg",
+  image: "/products/product-565.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT ADAPTOR 16 MM for industrial electrical applications.",
 },
@@ -5759,7 +5757,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT ADAPTOR 25 MM",
   code: "EMT-576",
   category: "Flexible Conduit Adaptor",
-  image: "/products/product-576.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT ADAPTOR 25 MM for industrial electrical applications.",
 },
@@ -5769,7 +5767,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT ADAPTOR 32 MM",
   code: "EMT-577",
   category: "Flexible Conduit Adaptor",
-  image: "/products/product-577.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT ADAPTOR 32 MM for industrial electrical applications.",
 },
@@ -5779,7 +5777,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT ADAPTOR 40 MM",
   code: "EMT-578",
   category: "Flexible Conduit Adaptor",
-  image: "/products/product-578.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT ADAPTOR 40 MM for industrial electrical applications.",
 },
@@ -5789,7 +5787,7 @@ export const products: Product[] = [
   title: "PVC FLEXIBLE CONDUIT ADAPTOR 50 MM",
   code: "EMT-579",
   category: "Flexible Conduit Adaptor",
-  image: "/products/product-579.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality PVC FLEXIBLE CONDUIT ADAPTOR 50 MM for industrial electrical applications.",
 },
@@ -5799,7 +5797,7 @@ export const products: Product[] = [
   title: "FLEXIBLE CONDUIT SADDLE 16 MM",
   code: "EMT-580",
   category: "Conduit Saddle",
-  image: "/products/product-580.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality FLEXIBLE CONDUIT SADDLE 16 MM for industrial electrical applications.",
 },
@@ -5809,7 +5807,7 @@ export const products: Product[] = [
   title: "FLEXIBLE CONDUIT SADDLE 20 MM",
   code: "EMT-581",
   category: "Conduit Saddle",
-  image: "/products/product-581.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality FLEXIBLE CONDUIT SADDLE 20 MM for industrial electrical applications.",
 },
@@ -5819,7 +5817,7 @@ export const products: Product[] = [
   title: "FLEXIBLE CONDUIT SADDLE 25 MM",
   code: "EMT-582",
   category: "Conduit Saddle",
-  image: "/products/product-582.jpg",
+  image: "/products/product-575.jpg",
   description:
     "High quality FLEXIBLE CONDUIT SADDLE 25 MM for industrial electrical applications.",
 },
@@ -5839,7 +5837,7 @@ export const products: Product[] = [
   title: "FLEXIBLE CONDUIT SADDLE 40 MM",
   code: "EMT-584",
   category: "Conduit Saddle",
-  image: "/products/product-584.jpg",
+  image: "/products/product-583.jpg",
   description:
     "High quality FLEXIBLE CONDUIT SADDLE 40 MM for industrial electrical applications.",
 },
@@ -5849,7 +5847,7 @@ export const products: Product[] = [
   title: "FLEXIBLE CONDUIT SADDLE 50 MM",
   code: "EMT-585",
   category: "Conduit Saddle",
-  image: "/products/product-585.jpg",
+  image: "/products/product-583.jpg",
   description:
     "High quality FLEXIBLE CONDUIT SADDLE 50 MM for industrial electrical applications.",
 },
@@ -5859,7 +5857,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-7",
   code: "EMT-586",
   category: "Nylon Gland",
-  image: "/products/product-586.jpg",
+  image: "/products/product-583.jpg",
   description:
     "High quality NYLON GLAND PG-7 for industrial electrical applications.",
 },
@@ -5879,7 +5877,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-11",
   code: "EMT-588",
   category: "Nylon Gland",
-  image: "/products/product-588.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-11 for industrial electrical applications.",
 },
@@ -5889,7 +5887,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-13.5",
   code: "EMT-589",
   category: "Nylon Gland",
-  image: "/products/product-589.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-13.5 for industrial electrical applications.",
 },
@@ -5899,7 +5897,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-16",
   code: "EMT-590",
   category: "Nylon Gland",
-  image: "/products/product-590.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-16 for industrial electrical applications.",
 },
@@ -5909,7 +5907,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-21",
   code: "EMT-591",
   category: "Nylon Gland",
-  image: "/products/product-591.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-21 for industrial electrical applications.",
 },
@@ -5919,7 +5917,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-29",
   code: "EMT-592",
   category: "Nylon Gland",
-  image: "/products/product-592.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-29 for industrial electrical applications.",
 },
@@ -5929,7 +5927,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-36",
   code: "EMT-593",
   category: "Nylon Gland",
-  image: "/products/product-593.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-36 for industrial electrical applications.",
 },
@@ -5939,7 +5937,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-42",
   code: "EMT-594",
   category: "Nylon Gland",
-  image: "/products/product-594.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-42 for industrial electrical applications.",
 },
@@ -5949,7 +5947,7 @@ export const products: Product[] = [
   title: "NYLON GLAND PG-48",
   code: "EMT-595",
   category: "Nylon Gland",
-  image: "/products/product-595.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality NYLON GLAND PG-48 for industrial electrical applications.",
 },
@@ -5959,7 +5957,7 @@ export const products: Product[] = [
   title: "METAL GLAND M20",
   code: "EMT-596",
   category: "Metal Gland",
-  image: "/products/product-596.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M20 for industrial electrical applications.",
 },
@@ -5969,7 +5967,7 @@ export const products: Product[] = [
   title: "METAL GLAND M25",
   code: "EMT-597",
   category: "Metal Gland",
-  image: "/products/product-597.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M25 for industrial electrical applications.",
 },
@@ -5979,7 +5977,7 @@ export const products: Product[] = [
   title: "METAL GLAND M32",
   code: "EMT-598",
   category: "Metal Gland",
-  image: "/products/product-598.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M32 for industrial electrical applications.",
 },
@@ -5989,7 +5987,7 @@ export const products: Product[] = [
   title: "METAL GLAND M40",
   code: "EMT-599",
   category: "Metal Gland",
-  image: "/products/product-599.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M40 for industrial electrical applications.",
 },
@@ -5999,7 +5997,7 @@ export const products: Product[] = [
   title: "METAL GLAND M50",
   code: "EMT-600",
   category: "Metal Gland",
-  image: "/products/product-600.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M50 for industrial electrical applications.",
 },
@@ -6008,7 +6006,7 @@ export const products: Product[] = [
   title: "METAL GLAND M63",
   code: "EMT-601",
   category: "Metal Gland",
-  image: "/products/product-601.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality METAL GLAND M63 for industrial electrical applications.",
 },
@@ -6018,7 +6016,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M20",
   code: "EMT-602",
   category: "Brass Locknut",
-  image: "/products/product-602.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M20 for industrial electrical applications.",
 },
@@ -6028,7 +6026,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M25",
   code: "EMT-603",
   category: "Brass Locknut",
-  image: "/products/product-603.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M25 for industrial electrical applications.",
 },
@@ -6038,7 +6036,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M32",
   code: "EMT-604",
   category: "Brass Locknut",
-  image: "/products/product-604.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M32 for industrial electrical applications.",
 },
@@ -6048,7 +6046,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M40",
   code: "EMT-605",
   category: "Brass Locknut",
-  image: "/products/product-605.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M40 for industrial electrical applications.",
 },
@@ -6058,7 +6056,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M50",
   code: "EMT-606",
   category: "Brass Locknut",
-  image: "/products/product-606.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M50 for industrial electrical applications.",
 },
@@ -6068,7 +6066,7 @@ export const products: Product[] = [
   title: "BRASS LOCKNUT M63",
   code: "EMT-607",
   category: "Brass Locknut",
-  image: "/products/product-607.jpg",
+  image: "/products/product-587.jpg",
   description:
     "High quality BRASS LOCKNUT M63 for industrial electrical applications.",
 },
@@ -6088,7 +6086,7 @@ export const products: Product[] = [
   title: "EARTH TAG M25",
   code: "EMT-609",
   category: "Earth Tag",
-  image: "/products/product-609.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality EARTH TAG M25 for industrial electrical applications.",
 },
@@ -6098,7 +6096,7 @@ export const products: Product[] = [
   title: "EARTH TAG M32",
   code: "EMT-610",
   category: "Earth Tag",
-  image: "/products/product-610.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality EARTH TAG M32 for industrial electrical applications.",
 },
@@ -6108,7 +6106,7 @@ export const products: Product[] = [
   title: "EARTH TAG M40",
   code: "EMT-611",
   category: "Earth Tag",
-  image: "/products/product-611.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality EARTH TAG M40 for industrial electrical applications.",
 },
@@ -6118,7 +6116,7 @@ export const products: Product[] = [
   title: "EARTH TAG M50",
   code: "EMT-612",
   category: "Earth Tag",
-  image: "/products/product-612.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality EARTH TAG M50 for industrial electrical applications.",
 },
@@ -6128,7 +6126,7 @@ export const products: Product[] = [
   title: "EARTH TAG M63",
   code: "EMT-613",
   category: "Earth Tag",
-  image: "/products/product-613.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality EARTH TAG M63 for industrial electrical applications.",
 },
@@ -6138,7 +6136,7 @@ export const products: Product[] = [
   title: "PVC JUNCTION BOX 100X100X50",
   code: "EMT-614",
   category: "Junction Box",
-  image: "/products/product-614.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality PVC JUNCTION BOX 100X100X50 for industrial electrical applications.",
 },
@@ -6148,7 +6146,7 @@ export const products: Product[] = [
   title: "PVC JUNCTION BOX 150X150X70",
   code: "EMT-615",
   category: "Junction Box",
-  image: "/products/product-615.jpg",
+  image: "/products/product-608.jpg",
   description:
     "High quality PVC JUNCTION BOX 150X150X70 for industrial electrical applications.",
 },
@@ -6168,7 +6166,7 @@ export const products: Product[] = [
   title: "PVC JUNCTION BOX 300X300X120",
   code: "EMT-617",
   category: "Junction Box",
-  image: "/products/product-617.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality PVC JUNCTION BOX 300X300X120 for industrial electrical applications.",
 },
@@ -6178,7 +6176,7 @@ export const products: Product[] = [
   title: "WEATHERPROOF SWITCH 1 GANG",
   code: "EMT-618",
   category: "Weatherproof Switch",
-  image: "/products/product-618.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality WEATHERPROOF SWITCH 1 GANG for industrial electrical applications.",
 },
@@ -6188,7 +6186,7 @@ export const products: Product[] = [
   title: "WEATHERPROOF SWITCH 2 GANG",
   code: "EMT-619",
   category: "Weatherproof Switch",
-  image: "/products/product-619.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality WEATHERPROOF SWITCH 2 GANG for industrial electrical applications.",
 },
@@ -6198,7 +6196,7 @@ export const products: Product[] = [
   title: "WEATHERPROOF SOCKET 13A",
   code: "EMT-620",
   category: "Weatherproof Socket",
-  image: "/products/product-620.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality WEATHERPROOF SOCKET 13A for industrial electrical applications.",
 },
@@ -6208,7 +6206,7 @@ export const products: Product[] = [
   title: "WEATHERPROOF SOCKET 16A",
   code: "EMT-621",
   category: "Weatherproof Socket",
-  image: "/products/product-621.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality WEATHERPROOF SOCKET 16A for industrial electrical applications.",
 },
@@ -6218,7 +6216,7 @@ export const products: Product[] = [
   title: "INDUSTRIAL PLUG 16A 3 PIN",
   code: "EMT-622",
   category: "Industrial Plug",
-  image: "/products/product-622.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality INDUSTRIAL PLUG 16A 3 PIN for industrial electrical applications.",
 },
@@ -6228,7 +6226,7 @@ export const products: Product[] = [
   title: "INDUSTRIAL SOCKET 16A 3 PIN",
   code: "EMT-623",
   category: "Industrial Socket",
-  image: "/products/product-623.jpg",
+  image: "/products/product-616.jpg",
   description:
     "High quality INDUSTRIAL SOCKET 16A 3 PIN for industrial electrical applications.",
 },
@@ -6248,7 +6246,7 @@ export const products: Product[] = [
   title: "INDUSTRIAL SOCKET 32A 4 PIN",
   code: "EMT-625",
   category: "Industrial Socket",
-  image: "/products/product-625.jpg",
+  image: "/products/product-624.jpg",
   description:
     "High quality INDUSTRIAL SOCKET 32A 4 PIN for industrial electrical applications.",
 },
@@ -6268,7 +6266,7 @@ export const products: Product[] = [
   title: "PANEL HINGE STEEL",
   code: "EMT-627",
   category: "Panel Hinge",
-  image: "/products/product-627.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality PANEL HINGE STEEL for industrial electrical applications.",
 },
@@ -6278,7 +6276,7 @@ export const products: Product[] = [
   title: "DIN RAIL 35 MM",
   code: "EMT-628",
   category: "DIN Rail",
-  image: "/products/product-628.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality DIN RAIL 35 MM for industrial electrical applications.",
 },
@@ -6288,7 +6286,7 @@ export const products: Product[] = [
   title: "END CLAMP FOR DIN RAIL",
   code: "EMT-629",
   category: "DIN Rail Accessories",
-  image: "/products/product-629.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality END CLAMP FOR DIN RAIL for industrial electrical applications.",
 },
@@ -6298,7 +6296,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK 2.5 MM",
   code: "EMT-630",
   category: "Terminal Block",
-  image: "/products/product-630.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK 2.5 MM for industrial electrical applications.",
 },
@@ -6308,7 +6306,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK 4 MM",
   code: "EMT-631",
   category: "Terminal Block",
-  image: "/products/product-631.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK 4 MM for industrial electrical applications.",
 },
@@ -6318,7 +6316,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK 6 MM",
   code: "EMT-632",
   category: "Terminal Block",
-  image: "/products/product-632.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK 6 MM for industrial electrical applications.",
 },
@@ -6328,7 +6326,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK 10 MM",
   code: "EMT-633",
   category: "Terminal Block",
-  image: "/products/product-633.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK 10 MM for industrial electrical applications.",
 },
@@ -6338,7 +6336,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK 16 MM",
   code: "EMT-634",
   category: "Terminal Block",
-  image: "/products/product-634.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK 16 MM for industrial electrical applications.",
 },
@@ -6348,7 +6346,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK END COVER",
   code: "EMT-635",
   category: "Terminal Block Accessories",
-  image: "/products/product-635.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK END COVER for industrial electrical applications.",
 },
@@ -6358,7 +6356,7 @@ export const products: Product[] = [
   title: "TERMINAL BLOCK MARKER",
   code: "EMT-636",
   category: "Terminal Block Accessories",
-  image: "/products/product-636.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality TERMINAL BLOCK MARKER for industrial electrical applications.",
 },
@@ -6368,7 +6366,7 @@ export const products: Product[] = [
   title: "PUSH BUTTON GREEN",
   code: "EMT-637",
   category: "Push Button",
-  image: "/products/product-637.jpg",
+  image: "/products/product-626.jpg",
   description:
     "High quality PUSH BUTTON GREEN for industrial electrical applications.",
 },
@@ -6388,7 +6386,7 @@ export const products: Product[] = [
   title: "PUSH BUTTON YELLOW",
   code: "EMT-639",
   category: "Push Button",
-  image: "/products/product-639.jpg",
+  image: "/products/product-638.jpg",
   description:
     "High quality PUSH BUTTON YELLOW for industrial electrical applications.",
 },
@@ -6398,7 +6396,7 @@ export const products: Product[] = [
   title: "EMERGENCY STOP BUTTON",
   code: "EMT-640",
   category: "Emergency Button",
-  image: "/products/product-640.jpg",
+  image: "/products/product-638.jpg",
   description:
     "High quality EMERGENCY STOP BUTTON for industrial electrical applications.",
 },
@@ -6418,7 +6416,7 @@ export const products: Product[] = [
   title: "SELECTOR SWITCH 3 POSITION",
   code: "EMT-642",
   category: "Selector Switch",
-  image: "/products/product-642.jpg",
+  image: "/products/product-641.jpg",
   description:
     "High quality SELECTOR SWITCH 3 POSITION for industrial electrical applications.",
 },
@@ -6428,7 +6426,7 @@ export const products: Product[] = [
   title: "PILOT LIGHT RED",
   code: "EMT-643",
   category: "Pilot Light",
-  image: "/products/product-643.jpg",
+  image: "/products/product-641.jpg",
   description:
     "High quality PILOT LIGHT RED for industrial electrical applications.",
 },
@@ -6438,7 +6436,7 @@ export const products: Product[] = [
   title: "PILOT LIGHT GREEN",
   code: "EMT-644",
   category: "Pilot Light",
-  image: "/products/product-644.jpg",
+  image: "/products/product-641.jpg",
   description:
     "High quality PILOT LIGHT GREEN for industrial electrical applications.",
 },
@@ -6458,7 +6456,7 @@ export const products: Product[] = [
   title: "DIGITAL TIMER 220V",
   code: "EMT-646",
   category: "Digital Timer",
-  image: "/products/product-646.jpg",
+  image: "/products/product-645.jpg",
   description:
     "High quality DIGITAL TIMER 220V for industrial electrical applications.",
 },
@@ -6468,7 +6466,7 @@ export const products: Product[] = [
   title: "DIGITAL COUNTER 220V",
   code: "EMT-647",
   category: "Digital Counter",
-  image: "/products/product-647.jpg",
+  image: "/products/product-645.jpg",
   description:
     "High quality DIGITAL COUNTER 220V for industrial electrical applications.",
 },
@@ -6478,7 +6476,7 @@ export const products: Product[] = [
   title: "CURRENT TRANSFORMER 100/5A",
   code: "EMT-648",
   category: "Current Transformer",
-  image: "/products/product-648.jpg",
+  image: "/products/product-645.jpg",
   description:
     "High quality CURRENT TRANSFORMER 100/5A for industrial electrical applications.",
 },
@@ -6488,7 +6486,7 @@ export const products: Product[] = [
   title: "CURRENT TRANSFORMER 200/5A",
   code: "EMT-649",
   category: "Current Transformer",
-  image: "/products/product-649.jpg",
+  image: "/products/product-645.jpg",
   description:
     "High quality CURRENT TRANSFORMER 200/5A for industrial electrical applications.",
 },
@@ -6498,7 +6496,7 @@ export const products: Product[] = [
   title: "CURRENT TRANSFORMER 400/5A",
   code: "EMT-650",
   category: "Current Transformer",
-  image: "/products/product-650.jpg",
+  image: "/products/product-645.jpg",
   description:
     "High quality CURRENT TRANSFORMER 400/5A for industrial electrical applications.",
 },
@@ -6518,7 +6516,7 @@ export const products: Product[] = [
   title: "ANALOG AMMETER 96X96",
   code: "EMT-652",
   category: "Ammeter",
-  image: "/products/product-652.jpg",
+  image: "/products/product-651.jpg",
   description:
     "High quality ANALOG AMMETER 96X96 for industrial electrical applications.",
 },
@@ -6528,7 +6526,7 @@ export const products: Product[] = [
   title: "DIGITAL MULTIFUNCTION METER",
   code: "EMT-653",
   category: "Digital Meter",
-  image: "/products/product-653.jpg",
+  image: "/products/product-651.jpg",
   description:
     "High quality DIGITAL MULTIFUNCTION METER for industrial electrical applications.",
 },
@@ -6538,7 +6536,7 @@ export const products: Product[] = [
   title: "COOLING FAN FILTER 4 INCH",
   code: "EMT-654",
   category: "Cooling Fan",
-  image: "/products/product-654.jpg",
+  image: "/products/product-651.jpg",
   description:
     "High quality COOLING FAN FILTER 4 INCH for industrial electrical applications.",
 },
@@ -6548,7 +6546,7 @@ export const products: Product[] = [
   title: "COOLING FAN FILTER 6 INCH",
   code: "EMT-655",
   category: "Cooling Fan",
-  image: "/products/product-655.jpg",
+  image: "/products/product-651.jpg",
   description:
     "High quality COOLING FAN FILTER 6 INCH for industrial electrical applications.",
 },
@@ -6558,7 +6556,7 @@ export const products: Product[] = [
   title: "COOLING FAN FILTER 8 INCH",
   code: "EMT-656",
   category: "Cooling Fan",
-  image: "/products/product-656.jpg",
+  image: "/products/product-651.jpg",
   description:
     "High quality COOLING FAN FILTER 8 INCH for industrial electrical applications.",
 },
@@ -6578,7 +6576,7 @@ export const products: Product[] = [
   title: "PANEL AC 500W",
   code: "EMT-658",
   category: "Panel AC",
-  image: "/products/product-658.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality PANEL AC 500W for industrial electrical applications.",
 },
@@ -6588,7 +6586,7 @@ export const products: Product[] = [
   title: "PANEL HEATER 50W",
   code: "EMT-659",
   category: "Panel Heater",
-  image: "/products/product-659.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality PANEL HEATER 50W for industrial electrical applications.",
 },
@@ -6598,7 +6596,7 @@ export const products: Product[] = [
   title: "PANEL HEATER 100W",
   code: "EMT-660",
   category: "Panel Heater",
-  image: "/products/product-660.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality PANEL HEATER 100W for industrial electrical applications.",
 },
@@ -6608,7 +6606,7 @@ export const products: Product[] = [
   title: "THERMOSTAT NO",
   code: "EMT-661",
   category: "Thermostat",
-  image: "/products/product-661.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality THERMOSTAT NO for industrial electrical applications.",
 },
@@ -6618,7 +6616,7 @@ export const products: Product[] = [
   title: "THERMOSTAT NC",
   code: "EMT-662",
   category: "Thermostat",
-  image: "/products/product-662.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality THERMOSTAT NC for industrial electrical applications.",
 },
@@ -6628,7 +6626,7 @@ export const products: Product[] = [
   title: "LED PANEL LIGHT 24V",
   code: "EMT-663",
   category: "Panel Light",
-  image: "/products/product-663.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality LED PANEL LIGHT 24V for industrial electrical applications.",
 },
@@ -6638,7 +6636,7 @@ export const products: Product[] = [
   title: "SMPS 24V 5A",
   code: "EMT-664",
   category: "SMPS",
-  image: "/products/product-664.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality SMPS 24V 5A for industrial electrical applications.",
 },
@@ -6648,7 +6646,7 @@ export const products: Product[] = [
   title: "SMPS 24V 10A",
   code: "EMT-665",
   category: "SMPS",
-  image: "/products/product-665.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality SMPS 24V 10A for industrial electrical applications.",
 },
@@ -6658,7 +6656,7 @@ export const products: Product[] = [
   title: "SMPS 24V 20A",
   code: "EMT-666",
   category: "SMPS",
-  image: "/products/product-666.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality SMPS 24V 20A for industrial electrical applications.",
 },
@@ -6668,7 +6666,7 @@ export const products: Product[] = [
   title: "CONTROL TRANSFORMER 100VA",
   code: "EMT-667",
   category: "Control Transformer",
-  image: "/products/product-667.jpg",
+  image: "/products/product-657.jpg",
   description:
     "High quality CONTROL TRANSFORMER 100VA for industrial electrical applications.",
 },
@@ -6688,7 +6686,7 @@ export const products: Product[] = [
   title: "CONTROL TRANSFORMER 500VA",
   code: "EMT-669",
   category: "Control Transformer",
-  image: "/products/product-669.jpg",
+  image: "/products/product-668.jpg",
   description:
     "High quality CONTROL TRANSFORMER 500VA for industrial electrical applications.",
 },
@@ -6698,7 +6696,7 @@ export const products: Product[] = [
   title: "MCB 6A SP",
   code: "EMT-670",
   category: "MCB",
-  image: "/products/product-670.jpg",
+  image: "/products/product-668.jpg",
   description:
     "High quality MCB 6A SP for industrial electrical applications.",
 },
@@ -6718,7 +6716,7 @@ export const products: Product[] = [
   title: "MCB 16A SP",
   code: "EMT-672",
   category: "MCB",
-  image: "/products/product-672.jpg",
+  image: "/products/product-671.jpg",
   description:
     "High quality MCB 16A SP for industrial electrical applications.",
 },
@@ -6728,7 +6726,7 @@ export const products: Product[] = [
   title: "MCB 20A SP",
   code: "EMT-673",
   category: "MCB",
-  image: "/products/product-673.jpg",
+  image: "/products/product-671.jpg",
   description:
     "High quality MCB 20A SP for industrial electrical applications.",
 },
@@ -6738,7 +6736,7 @@ export const products: Product[] = [
   title: "MCB 32A SP",
   code: "EMT-674",
   category: "MCB",
-  image: "/products/product-674.jpg",
+  image: "/products/product-671.jpg",
   description:
     "High quality MCB 32A SP for industrial electrical applications.",
 },
@@ -6748,7 +6746,7 @@ export const products: Product[] = [
   title: "MCB 40A SP",
   code: "EMT-675",
   category: "MCB",
-  image: "/products/product-675.jpg",
+  image: "/products/product-671.jpg",
   description:
     "High quality MCB 40A SP for industrial electrical applications.",
 },
@@ -6768,7 +6766,7 @@ export const products: Product[] = [
   title: "MCB 6A DP",
   code: "EMT-677",
   category: "MCB",
-  image: "/products/product-677.jpg",
+  image: "/products/product-676.jpg",
   description:
     "High quality MCB 6A DP for industrial electrical applications.",
 },
@@ -6778,7 +6776,7 @@ export const products: Product[] = [
   title: "MCB 10A DP",
   code: "EMT-678",
   category: "MCB",
-  image: "/products/product-678.jpg",
+  image: "/products/product-676.jpg",
   description:
     "High quality MCB 10A DP for industrial electrical applications.",
 },
@@ -6798,7 +6796,7 @@ export const products: Product[] = [
   title: "MCB 20A DP",
   code: "EMT-680",
   category: "MCB",
-  image: "/products/product-680.jpg",
+  image: "/products/product-679.jpg",
   description:
     "High quality MCB 20A DP for industrial electrical applications.",
 },
@@ -6808,7 +6806,7 @@ export const products: Product[] = [
   title: "MCB 32A DP",
   code: "EMT-681",
   category: "MCB",
-  image: "/products/product-681.jpg",
+  image: "/products/product-679.jpg",
   description:
     "High quality MCB 32A DP for industrial electrical applications.",
 },
@@ -6818,7 +6816,7 @@ export const products: Product[] = [
   title: "MCB 40A DP",
   code: "EMT-682",
   category: "MCB",
-  image: "/products/product-682.jpg",
+  image: "/products/product-679.jpg",
   description:
     "High quality MCB 40A DP for industrial electrical applications.",
 },
@@ -6828,7 +6826,7 @@ export const products: Product[] = [
   title: "MCB 63A DP",
   code: "EMT-683",
   category: "MCB",
-  image: "/products/product-683.jpg",
+  image: "/products/product-679.jpg",
   description:
     "High quality MCB 63A DP for industrial electrical applications.",
 },
@@ -6838,7 +6836,7 @@ export const products: Product[] = [
   title: "CONTACTOR 9A",
   code: "EMT-684",
   category: "Contactor",
-  image: "/products/product-684.jpg",
+  image: "/products/product-679.jpg",
   description:
     "High quality CONTACTOR 9A for industrial electrical applications.",
 },
@@ -6858,7 +6856,7 @@ export const products: Product[] = [
   title: "CONTACTOR 18A",
   code: "EMT-686",
   category: "Contactor",
-  image: "/products/product-686.jpg",
+  image: "/products/product-685.jpg",
   description:
     "High quality CONTACTOR 18A for industrial electrical applications.",
 },
@@ -6868,7 +6866,7 @@ export const products: Product[] = [
   title: "CONTACTOR 25A",
   code: "EMT-687",
   category: "Contactor",
-  image: "/products/product-687.jpg",
+  image: "/products/product-685.jpg",
   description:
     "High quality CONTACTOR 25A for industrial electrical applications.",
 },
@@ -6878,7 +6876,7 @@ export const products: Product[] = [
   title: "CONTACTOR 32A",
   code: "EMT-688",
   category: "Contactor",
-  image: "/products/product-688.jpg",
+  image: "/products/product-685.jpg",
   description:
     "High quality CONTACTOR 32A for industrial electrical applications.",
 },
@@ -6888,7 +6886,7 @@ export const products: Product[] = [
   title: "CONTACTOR 40A",
   code: "EMT-689",
   category: "Contactor",
-  image: "/products/product-689.jpg",
+  image: "/products/product-685.jpg",
   description:
     "High quality CONTACTOR 40A for industrial electrical applications.",
 },
@@ -6908,7 +6906,7 @@ export const products: Product[] = [
   title: "THERMAL OVERLOAD RELAY 9-13A",
   code: "EMT-691",
   category: "Thermal Overload Relay",
-  image: "/products/product-691.jpg",
+  image: "/products/product-690.jpg",
   description:
     "High quality THERMAL OVERLOAD RELAY 9-13A for industrial electrical applications.",
 },
@@ -6918,7 +6916,7 @@ export const products: Product[] = [
   title: "THERMAL OVERLOAD RELAY 13-18A",
   code: "EMT-692",
   category: "Thermal Overload Relay",
-  image: "/products/product-692.jpg",
+  image: "/products/product-690.jpg",
   description:
     "High quality THERMAL OVERLOAD RELAY 13-18A for industrial electrical applications.",
 },
@@ -6928,7 +6926,7 @@ export const products: Product[] = [
   title: "THERMAL OVERLOAD RELAY 18-25A",
   code: "EMT-693",
   category: "Thermal Overload Relay",
-  image: "/products/product-693.jpg",
+  image: "/products/product-690.jpg",
   description:
     "High quality THERMAL OVERLOAD RELAY 18-25A for industrial electrical applications.",
 },
@@ -6938,7 +6936,7 @@ export const products: Product[] = [
   title: "MOTOR STARTER DOL 9A",
   code: "EMT-694",
   category: "Motor Starter",
-  image: "/products/product-694.jpg",
+  image: "/products/product-690.jpg",
   description:
     "High quality MOTOR STARTER DOL 9A for industrial electrical applications.",
 },
@@ -6948,7 +6946,7 @@ export const products: Product[] = [
   title: "MOTOR STARTER DOL 12A",
   code: "EMT-695",
   category: "Motor Starter",
-  image: "/products/product-695.jpg",
+  image: "/products/product-690.jpg",
   description:
     "High quality MOTOR STARTER DOL 12A for industrial electrical applications.",
 },
@@ -6968,7 +6966,7 @@ export const products: Product[] = [
   title: "CHANGEOVER SWITCH 63A",
   code: "EMT-697",
   category: "Changeover Switch",
-  image: "/products/product-697.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality CHANGEOVER SWITCH 63A for industrial electrical applications.",
 },
@@ -6978,7 +6976,7 @@ export const products: Product[] = [
   title: "CHANGEOVER SWITCH 100A",
   code: "EMT-698",
   category: "Changeover Switch",
-  image: "/products/product-698.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality CHANGEOVER SWITCH 100A for industrial electrical applications.",
 },
@@ -6988,7 +6986,7 @@ export const products: Product[] = [
   title: "CHANGEOVER SWITCH 160A",
   code: "EMT-699",
   category: "Changeover Switch",
-  image: "/products/product-699.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality CHANGEOVER SWITCH 160A for industrial electrical applications.",
 },
@@ -6998,7 +6996,7 @@ export const products: Product[] = [
   title: "MCCB 100A",
   code: "EMT-700",
   category: "MCCB",
-  image: "/products/product-700.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality MCCB 100A for industrial electrical applications.",
 },
@@ -7008,7 +7006,7 @@ export const products: Product[] = [
   title: "MCCB 160A",
   code: "EMT-701",
   category: "MCCB",
-  image: "/products/product-701.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality MCCB 160A for industrial electrical applications.",
 },
@@ -7018,7 +7016,7 @@ export const products: Product[] = [
   title: "MCCB 250A",
   code: "EMT-702",
   category: "MCCB",
-  image: "/products/product-702.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality MCCB 250A for industrial electrical applications.",
 },
@@ -7028,7 +7026,7 @@ export const products: Product[] = [
   title: "MCCB 400A",
   code: "EMT-703",
   category: "MCCB",
-  image: "/products/product-703.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality MCCB 400A for industrial electrical applications.",
 },
@@ -7038,7 +7036,7 @@ export const products: Product[] = [
   title: "MCCB 630A",
   code: "EMT-704",
   category: "MCCB",
-  image: "/products/product-704.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality MCCB 630A for industrial electrical applications.",
 },
@@ -7048,7 +7046,7 @@ export const products: Product[] = [
   title: "ACB 800A",
   code: "EMT-705",
   category: "ACB",
-  image: "/products/product-705.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality ACB 800A for industrial electrical applications.",
 },
@@ -7058,7 +7056,7 @@ export const products: Product[] = [
   title: "ACB 1600A",
   code: "EMT-706",
   category: "ACB",
-  image: "/products/product-706.jpg",
+  image: "/products/product-696.jpg",
   description:
     "High quality ACB 1600A for industrial electrical applications.",
 },
@@ -7078,7 +7076,7 @@ export const products: Product[] = [
   title: "SURGE PROTECTION DEVICE 40KA",
   code: "EMT-708",
   category: "SPD",
-  image: "/products/product-708.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality SURGE PROTECTION DEVICE 40KA for industrial electrical applications.",
 },
@@ -7088,7 +7086,7 @@ export const products: Product[] = [
   title: "SURGE PROTECTION DEVICE 60KA",
   code: "EMT-709",
   category: "SPD",
-  image: "/products/product-709.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality SURGE PROTECTION DEVICE 60KA for industrial electrical applications.",
 },
@@ -7098,7 +7096,7 @@ export const products: Product[] = [
   title: "EARTH LEAKAGE RELAY",
   code: "EMT-710",
   category: "Protection Relay",
-  image: "/products/product-710.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality EARTH LEAKAGE RELAY for industrial electrical applications.",
 },
@@ -7108,7 +7106,7 @@ export const products: Product[] = [
   title: "PHASE FAILURE RELAY",
   code: "EMT-711",
   category: "Protection Relay",
-  image: "/products/product-711.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality PHASE FAILURE RELAY for industrial electrical applications.",
 },
@@ -7118,7 +7116,7 @@ export const products: Product[] = [
   title: "TIMER RELAY",
   code: "EMT-712",
   category: "Relay",
-  image: "/products/product-712.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality TIMER RELAY for industrial electrical applications.",
 },
@@ -7128,7 +7126,7 @@ export const products: Product[] = [
   title: "AUXILIARY RELAY 8 PIN",
   code: "EMT-713",
   category: "Auxiliary Relay",
-  image: "/products/product-713.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality AUXILIARY RELAY 8 PIN for industrial electrical applications.",
 },
@@ -7138,7 +7136,7 @@ export const products: Product[] = [
   title: "AUXILIARY RELAY 14 PIN",
   code: "EMT-714",
   category: "Auxiliary Relay",
-  image: "/products/product-714.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality AUXILIARY RELAY 14 PIN for industrial electrical applications.",
 },
@@ -7148,7 +7146,7 @@ export const products: Product[] = [
   title: "RELAY SOCKET 8 PIN",
   code: "EMT-715",
   category: "Relay Socket",
-  image: "/products/product-715.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality RELAY SOCKET 8 PIN for industrial electrical applications.",
 },
@@ -7158,7 +7156,7 @@ export const products: Product[] = [
   title: "RELAY SOCKET 14 PIN",
   code: "EMT-716",
   category: "Relay Socket",
-  image: "/products/product-716.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality RELAY SOCKET 14 PIN for industrial electrical applications.",
 },
@@ -7168,7 +7166,7 @@ export const products: Product[] = [
   title: "LIMIT SWITCH",
   code: "EMT-717",
   category: "Limit Switch",
-  image: "/products/product-717.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality LIMIT SWITCH for industrial electrical applications.",
 },
@@ -7178,7 +7176,7 @@ export const products: Product[] = [
   title: "PROXIMITY SENSOR PNP",
   code: "EMT-718",
   category: "Proximity Sensor",
-  image: "/products/product-718.jpg",
+  image: "/products/product-707.jpg",
   description:
     "High quality PROXIMITY SENSOR PNP for industrial electrical applications.",
 },
@@ -7198,7 +7196,7 @@ export const products: Product[] = [
   title: "PHOTO SENSOR",
   code: "EMT-720",
   category: "Photo Sensor",
-  image: "/products/product-720.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality PHOTO SENSOR for industrial electrical applications.",
 },
@@ -7208,7 +7206,7 @@ export const products: Product[] = [
   title: "FLOAT SWITCH",
   code: "EMT-721",
   category: "Float Switch",
-  image: "/products/product-721.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality FLOAT SWITCH for industrial electrical applications.",
 },
@@ -7218,7 +7216,7 @@ export const products: Product[] = [
   title: "LEVEL CONTROLLER",
   code: "EMT-722",
   category: "Level Controller",
-  image: "/products/product-722.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality LEVEL CONTROLLER for industrial electrical applications.",
 },
@@ -7228,7 +7226,7 @@ export const products: Product[] = [
   title: "VFD DRIVE 1HP",
   code: "EMT-723",
   category: "VFD",
-  image: "/products/product-723.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality VFD DRIVE 1HP for industrial electrical applications.",
 },
@@ -7238,7 +7236,7 @@ export const products: Product[] = [
   title: "VFD DRIVE 2HP",
   code: "EMT-724",
   category: "VFD",
-  image: "/products/product-724.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality VFD DRIVE 2HP for industrial electrical applications.",
 },
@@ -7248,7 +7246,7 @@ export const products: Product[] = [
   title: "VFD DRIVE 3HP",
   code: "EMT-725",
   category: "VFD",
-  image: "/products/product-725.jpg",
+  image: "/products/product-719.jpg",
   description:
     "High quality VFD DRIVE 3HP for industrial electrical applications.",
 },
@@ -7268,7 +7266,7 @@ export const products: Product[] = [
   title: "PLC 24 I/O",
   code: "EMT-727",
   category: "PLC",
-  image: "/products/product-727.jpg",
+  image: "/products/product-726.jpg",
   description:
     "High quality PLC 24 I/O for industrial electrical applications.",
 },
@@ -7278,7 +7276,7 @@ export const products: Product[] = [
   title: "HMI TOUCH PANEL 7 INCH",
   code: "EMT-728",
   category: "HMI",
-  image: "/products/product-728.jpg",
+  image: "/products/product-726.jpg",
   description:
     "High quality HMI TOUCH PANEL 7 INCH for industrial electrical applications.",
 },
@@ -7288,7 +7286,7 @@ export const products: Product[] = [
   title: "HMI TOUCH PANEL 10 INCH",
   code: "EMT-729",
   category: "HMI",
-  image: "/products/product-729.jpg",
+  image: "/products/product-726.jpg",
   description:
     "High quality HMI TOUCH PANEL 10 INCH for industrial electrical applications.",
 },
@@ -7318,7 +7316,7 @@ export const products: Product[] = [
   title: "NETWORK CABINET 6U",
   code: "EMT-732",
   category: "Network Cabinet",
-  image: "/products/product-732.jpg",
+  image: "/products/product-731.jpg",
   description:
     "High quality NETWORK CABINET 6U for industrial electrical applications.",
 },
@@ -7328,7 +7326,7 @@ export const products: Product[] = [
   title: "NETWORK CABINET 9U",
   code: "EMT-733",
   category: "Network Cabinet",
-  image: "/products/product-733.jpg",
+  image: "/products/product-731.jpg",
   description:
     "High quality NETWORK CABINET 9U for industrial electrical applications.",
 },
@@ -7338,7 +7336,7 @@ export const products: Product[] = [
   title: "NETWORK CABINET 12U",
   code: "EMT-734",
   category: "Network Cabinet",
-  image: "/products/product-734.jpg",
+  image: "/products/product-731.jpg",
   description:
     "High quality NETWORK CABINET 12U for industrial electrical applications.",
 },
@@ -7348,7 +7346,7 @@ export const products: Product[] = [
   title: "PATCH PANEL 24 PORT",
   code: "EMT-735",
   category: "Patch Panel",
-  image: "/products/product-735.jpg",
+  image: "/products/product-731.jpg",
   description:
     "High quality PATCH PANEL 24 PORT for industrial electrical applications.",
 },
@@ -7368,7 +7366,7 @@ export const products: Product[] = [
   title: "RJ45 CONNECTOR CAT6",
   code: "EMT-737",
   category: "RJ45 Connector",
-  image: "/products/product-737.jpg",
+  image: "/products/product-736.jpg",
   description:
     "High quality RJ45 CONNECTOR CAT6 for industrial electrical applications.",
 },
@@ -7378,7 +7376,7 @@ export const products: Product[] = [
   title: "CABLE TESTER",
   code: "EMT-738",
   category: "Testing Equipment",
-  image: "/products/product-738.jpg",
+  image: "/products/product-736.jpg",
   description:
     "High quality CABLE TESTER for industrial electrical applications.",
 },
@@ -7398,7 +7396,7 @@ export const products: Product[] = [
   title: "CLAMP METER",
   code: "EMT-740",
   category: "Testing Equipment",
-  image: "/products/product-740.jpg",
+  image: "/products/product-739.jpg",
   description:
     "High quality CLAMP METER for industrial electrical applications.",
 },
@@ -7408,7 +7406,7 @@ export const products: Product[] = [
   title: "INSULATION TESTER",
   code: "EMT-741",
   category: "Testing Equipment",
-  image: "/products/product-741.jpg",
+  image: "/products/product-739.jpg",
   description:
     "High quality INSULATION TESTER for industrial electrical applications.",
 },
@@ -7418,7 +7416,7 @@ export const products: Product[] = [
   title: "EARTH TESTER",
   code: "EMT-742",
   category: "Testing Equipment",
-  image: "/products/product-742.jpg",
+  image: "/products/product-739.jpg",
   description:
     "High quality EARTH TESTER for industrial electrical applications.",
 },
@@ -7438,7 +7436,7 @@ export const products: Product[] = [
   title: "WIRE STRIPPER",
   code: "EMT-744",
   category: "Tools",
-  image: "/products/product-744.jpg",
+  image: "/products/product-743.jpg",
   description:
     "High quality WIRE STRIPPER for industrial electrical applications.",
 },
@@ -7448,7 +7446,7 @@ export const products: Product[] = [
   title: "CABLE CUTTER",
   code: "EMT-745",
   category: "Tools",
-  image: "/products/product-745.jpg",
+  image: "/products/product-743.jpg",
   description:
     "High quality CABLE CUTTER for industrial electrical applications.",
 },
@@ -7458,7 +7456,7 @@ export const products: Product[] = [
   title: "INSULATED SCREWDRIVER SET",
   code: "EMT-746",
   category: "Tools",
-  image: "/products/product-746.jpg",
+  image: "/products/product-743.jpg",
   description:
     "High quality INSULATED SCREWDRIVER SET for industrial electrical applications.",
 },
@@ -7478,7 +7476,7 @@ export const products: Product[] = [
   title: "SAFETY GLOVES ELECTRICAL",
   code: "EMT-748",
   category: "Safety Equipment",
-  image: "/products/product-748.jpg",
+  image: "/products/product-747.jpg",
   description:
     "High quality SAFETY GLOVES ELECTRICAL for industrial electrical applications.",
 },
@@ -7488,7 +7486,7 @@ export const products: Product[] = [
   title: "SAFETY HELMET INDUSTRIAL",
   code: "EMT-749",
   category: "Safety Equipment",
-  image: "/products/product-749.jpg",
+  image: "/products/product-747.jpg",
   description:
     "High quality SAFETY HELMET INDUSTRIAL for industrial electrical applications.",
 },
@@ -7509,8 +7507,10 @@ export const productCategories = [
   "Rigid Coupling",
   "Reducer",
   "EMT Box",
+  "Octogonal Box",
   "Ring Box",
   "Water Proof Box",
+  "Water Proof Cover",
   "C-Channel",
   "Channel Clamp",
   "Thread Rod",
@@ -7518,21 +7518,29 @@ export const productCategories = [
   "Knock Out Seal",
   "Insulated Bushing",
   "Liquid Tight Connector",
+  "Flexible Coupling",
+  "Combination Coupling",
+  "Copper Coupling",
+  "Hanger Clamp",
+  "Pull Elbow",
+  "EMT Bender",
+  "Rigid Bend",
+  "End Cap",
   "PVC Bender",
   "PVC Box",
+  "Pulling Wire",
   "PVC Adaptor",
   "PVC Coupling",
-  "Cable Marker",
-  "Cable Lugs",
-  "Cable Gland",
-  "Flexible Hose",
-  "PVC Trunking",
-  "Cable Tie",
-  "Conduit Body",
-  "Waterproof Enclosure",
-  "Socket Box",
-  "Terminal Lugs",
-  "Drill Bits",
-  "Cutting Disc",
-  "Cable Joint Kit",
+  "PVC Bend",
+  "PVC Saddle",
+  "Sub Duct Coupling",
+  "Hole Closer",
+  "Flexible Connector",
+  "Compression Connector",
+  "Compression Coupling",
+  "Enlarger",
+  "EMT Cover",
+  "Plastic Gland",
+  "Insulator",
+  "Steel Cable Tie",
 ];
