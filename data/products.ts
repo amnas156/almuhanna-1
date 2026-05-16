@@ -3559,7 +3559,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 3/4''",
   code: "EMT-356",
   category: "Flexible Connector",
-  image: "/products/product-356.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 3/4'' for industrial electrical applications.",
 },
@@ -3569,7 +3569,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 1''",
   code: "EMT-357",
   category: "Flexible Connector",
-  image: "/products/product-357.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 1'' for industrial electrical applications.",
 },
@@ -3579,7 +3579,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 1-1/2''",
   code: "EMT-358",
   category: "Flexible Connector",
-  image: "/products/product-358.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 1-1/2'' for industrial electrical applications.",
 },
@@ -3589,7 +3589,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 2''",
   code: "EMT-359",
   category: "Flexible Connector",
-  image: "/products/product-359.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 2'' for industrial electrical applications.",
 },
@@ -3599,7 +3599,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 1/2'' UL ITCC QUALITY",
   code: "EMT-360",
   category: "Flexible Connector",
-  image: "/products/product-360.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 1/2'' UL ITCC QUALITY for industrial electrical applications.",
 },
@@ -3609,7 +3609,7 @@ export const products: Product[] = [
   title: "EMT STEEL FLEXIBLE CONNECTOR 3/4'' UL ITCC QUALITY",
   code: "EMT-361",
   category: "Flexible Connector",
-  image: "/products/product-361.jpg",
+  image: "/products/product-355.jpg",
   description:
     "High quality EMT STEEL FLEXIBLE CONNECTOR 3/4'' UL ITCC QUALITY for industrial electrical applications.",
 },
